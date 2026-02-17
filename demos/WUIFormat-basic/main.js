@@ -43,7 +43,7 @@ const localDateFormatting = () => {
 		+ `input format  : ${inputFormat}\n`
 		+ `input value   : ${inputValue}\n`
 		+ `local date    : ${date}\n`
-		+ `output format : ${format}\n`
+		+ `output format : ${outputFormat}\n`
 		+ `output value  : ${outputValue}\n`
 		+ "</pre>";
 }
