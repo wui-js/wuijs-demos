@@ -39,7 +39,7 @@ const localDateFormatting = () => {
 	const output = document.body.querySelector(".my-output.localDate");
 	const outputFormat = "dd/mm/yyyy hh:MM [GMT]zz";
 	const outputValue = date.wuiToString(outputFormat, { utc: false });
-	output.innerHTML = "<pre>"
+	output.innerHTML = "<b>Local date formatting</b><pre>"
 		+ `input format  : ${inputFormat}\n`
 		+ `input value   : ${inputValue}\n`
 		+ `local date    : ${date}\n`
