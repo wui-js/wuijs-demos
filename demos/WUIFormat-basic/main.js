@@ -40,8 +40,8 @@ const localDateFormatting = () => {
 	const format = "dd/mm/yyyy hh:MM [GMT]zz";
 	const outputValue = date.wuiToString(format, { utc: false });
 	output.innerHTML = "<pre>"
-		+ `input value   : ${inputValue}\n`
 		+ `input format  : ${inputFormat}\n`
+		+ `input value   : ${inputValue}\n`
 		+ `local date    : ${date}\n`
 		+ `output format : ${format}\n`
 		+ `output value  : ${outputValue}\n`
@@ -56,8 +56,8 @@ const utcDateFormatting = () => {
 	const format = "dd/mm/yyyy hh:MM [GMT]zz";
 	const outputValue = date.wuiToString(format, { utc: true });
 	output.innerHTML = "<pre>"
-		+ `input value   : ${inputValue}\n`
 		+ `input format  : ${inputFormat}\n`
+		+ `input value   : ${inputValue}\n`
 		+ `utc date      : ${date}\n`
 		+ `output format : ${format}\n`
 		+ `output value  : ${outputValue}\n`
