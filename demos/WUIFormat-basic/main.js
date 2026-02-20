@@ -84,6 +84,7 @@ const utcDateFormatting = () => {
 window.addEventListener("DOMContentLoaded", () => {
 	numberDefaults();
 	numberFormatting();
+	numberSizeFormatting();
 	emailValidation();
 	localDateFormatting();
 	utcDateFormatting();
