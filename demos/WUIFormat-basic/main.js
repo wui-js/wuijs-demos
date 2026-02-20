@@ -24,9 +24,22 @@ const numberSizeFormatting = () => {
 	const output = document.body.querySelector(".my-output.numberSize");
 	const outputValue = inputValue.wuiToSizeString({});
 	output.innerHTML = "<pre>"
-		+ `<b>Number size formatting</b>\n`
+		+ `<b>Number digital size formatting</b>\n`
 		+ `input value  : ${inputValue}\n`
 		+ `output value : ${outputValue}\n`
+		+ "</pre>";
+}
+
+const numberModule11Formatting = () => {
+	const inputValue = 1234567;
+	const output = document.body.querySelector(".my-output.numberModule11");
+	const outputCode10 = "K";
+	const outputValue = inputValue.wuiToModule11(outputCode10);
+	output.innerHTML = "<pre>"
+		+ `<b>Number module 11 formatting</b>\n`
+		+ `input value    : ${inputValue}\n`
+		+ `output code 10 : ${outputCode10}\n`
+		+ `output value   : ${outputValue}\n`
 		+ "</pre>";
 }
 
