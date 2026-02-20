@@ -23,8 +23,8 @@ const init = () => {
 		selector: ".wui-switch.my-switch",
 		value: "1"
 	});
-	const intencity = new WUIIntencity({
-		selector: ".wui-intencity.my-intencity",
+	const intensity = new WUIIntensity({
+		selector: ".wui-intensity.my-intensity",
 		value: "1"
 	});
 	const cancelButton = new WUIButton({
@@ -41,7 +41,7 @@ const init = () => {
 	timepicker.init();
 	colorpicker.init();
 	switchbox.init();
-	intencity.init();
+	intensity.init();
 	cancelButton.init();
 	submitButton.init();
 }
