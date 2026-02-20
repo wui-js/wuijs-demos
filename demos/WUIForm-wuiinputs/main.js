@@ -1,52 +1,60 @@
+const wuiComponents = {};
+
 const init = () => {
-	const form = new WUIForm({
+	wuiComponents.form = new WUIForm({
 		selector: ".wui-form.my-form",
 		submit: false
 	});
-	const selectpicker = new WUISelectpicker({
+	wuiComponents.selectpicker = new WUISelectpicker({
 		selector: ".wui-selectpicker.my-selectpicker",
-		value: "2"
+		value: "2",
+		onOpen: () => { closePickers("selectpicker"); }
 	});
-	const datepicker = new WUIDatepicker({
+	wuiComponents.datepicker = new WUIDatepicker({
 		selector: ".wui-datepicker.my-datepicker",
 		value: "2026-02-20",
-		boxAlign: "left"
+		boxAlign: "left",
+		onOpen: () => { closePickers("datepicker"); }
 	});
-	const timepicker = new WUITimepicker({
+	wuiComponents.timepicker = new WUITimepicker({
 		selector: ".wui-timepicker.my-timepicker",
 		value: "12:00",
-		boxAlign: "left"
+		boxAlign: "left",
+		onOpen: () => { closePickers("timepicker"); }
 	});
-	const colorpicker = new WUIColorpicker({
+	wuiComponents.colorpicker = new WUIColorpicker({
 		selector: ".wui-colorpicker.my-colorpicker",
 		value: "#ff0000",
-		boxAlign: "left"
+		boxAlign: "left",
+		onOpen: () => { closePickers("colorpicker"); }
 	});
-	const switchbox = new WUISwitch({
+	wuiComponents.switchbox = new WUISwitch({
 		selector: ".wui-switch.my-switch",
 		value: "1"
 	});
-	const intensity = new WUIIntensity({
+	wuiComponents.intensity = new WUIIntensity({
 		selector: ".wui-intensity.my-intensity",
 		value: "1"
 	});
-	const cancelButton = new WUIButton({
+	wuiComponents.cancelButton = new WUIButton({
 		selector: ".wui-button.cancel",
 		onClick: () => { }
 	});
-	const submitButton = new WUIButton({
+	wuiComponents.submitButton = new WUIButton({
 		selector: ".wui-button.submit",
 		onClick: () => { }
 	});
-	form.init();
-	selectpicker.init();
-	datepicker.init();
-	timepicker.init();
-	colorpicker.init();
-	switchbox.init();
-	intensity.init();
-	cancelButton.init();
-	submitButton.init();
+	Object.values(wuiComponents).forEach((component) => {
+		component.init();
+	});
+}
+
+const closePickers = (excludeId) => {
+	Object.entries(wuiComponents).forEach(([id, component]) => {
+		if (component.constructor.name.match(/picker/i) && id !== excludeId && component.close) {
+			component.close();
+		}
+	});
 }
 
 window.addEventListener("DOMContentLoaded", init);
