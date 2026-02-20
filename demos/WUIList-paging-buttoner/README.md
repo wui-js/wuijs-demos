@@ -1,4 +1,4 @@
-# WUITable - Paging demo
+# WUIList - Paging and buttoner demo
 
 ## Description
 
