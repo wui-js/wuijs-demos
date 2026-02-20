@@ -3,7 +3,7 @@
 ## Description
 
 This demo demonstrates the use of WUITable's pagination functionality via navigation links.
-Table data is populated directly during component creation.
+Table data is loaded directly in component creation.
 
 ## WUIJS Stack
 
