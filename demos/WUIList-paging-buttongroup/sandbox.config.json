@@ -1,5 +1,4 @@
 {
 	"template": "static",
-	"title": "WUIList - Basic demo",
-	"description": "Basic usage example of WUIList with simple pagination and buttoner mode."
+	"title": "WUIList - Paging and button group with pull cover demo"
 }
