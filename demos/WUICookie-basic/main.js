@@ -6,8 +6,12 @@ const init = () => {
 		//minutes: 365*24*60,
 		//overssl: false
 	});
-	cookie.set("mycookie", "test");
-	output.textContent = "Value read from the cookie: " + cookie.get("mycookie");
+	const encode = cookie.set("mycookie", "test");
+	const value = cookie.get("mycookie");
+	output.textContent = "<pre>"
+		+ `Encoded value : ${encode}\n`
+		+ `Readed value  : ${value}\n`
+		+ "</pre>";
 }
 
 window.addEventListener("DOMContentLoaded", init);
