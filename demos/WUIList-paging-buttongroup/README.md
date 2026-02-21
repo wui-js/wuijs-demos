@@ -10,3 +10,9 @@ List data is loaded directly in component creation.
 
 - WUIIcon - 0.1
 - WUIList - 0.2
+
+## Documentation
+
+- [WUIJS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUIIcon](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIIcon component documentation.
+- [WUIList](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuilist): WUIList component documentation.
