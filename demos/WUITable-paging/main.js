@@ -9,6 +9,7 @@ const init = () => {
 		selector: ".wui-table.my-table",
 		//width: "auto",
 		paging: 5,
+		resetPaging: true,
 		columns: [{
 			label: "A Column",
 			width: 100
