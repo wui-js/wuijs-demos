@@ -8,3 +8,9 @@ This demo shows the use of WUIButton's basic functionality.
 
 - WUIIcon - 0.1
 - WUIButton - 0.2
+
+## Docs
+
+- [WUI](https://github.com/wuijsproject/wuijs-lib): Global documentation
+- [WUIIcon](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIIcon component documentation
+- [WUIButton](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuibutton): WUIButton component documentation
