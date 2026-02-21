@@ -11,4 +11,4 @@ This demo shows the use of WUIFormat for number, string and date formatting.
 ## Documentation
 
 - [WUIJS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
-- [WUIFormat](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIFormat utility documentation.
+- [WUIFormat](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIFormat utilities documentation.

@@ -11,4 +11,4 @@ This demo shows the use of WUIIcon's basic implementation.
 ## Documentation
 
 - [WUIJS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
-- [WUIIcon](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIIcon component documentation.
+- [WUIIcon](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIIcon pre-designed icons set documentation.
