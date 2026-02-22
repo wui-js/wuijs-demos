@@ -1,5 +1,5 @@
 const init = () => {
-	const button = document.getElementById("my-button");
+	const button = document.querySelector(".my-button");
 	const modal = new WUIModal({
 		selector: ".wui-modal.my-modal",
 		//openDelay: 200,
