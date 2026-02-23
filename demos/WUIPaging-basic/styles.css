@@ -14,8 +14,13 @@ body {
 	position: absolute;
 }
 
-.my-paging .page > div {
+.my-paging > .page > nav {
+	position: absolute;
+	top: 50%;
+	left: 50%;
 	display: flex;
+	gap: 10px;
+	transform: translate(-50%, -50%);
 }
 
 .my-output {
