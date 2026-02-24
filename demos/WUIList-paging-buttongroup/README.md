@@ -2,7 +2,7 @@
 
 ## Description
 
-This demo shows the use of WUIList's pagination functionality via navigation links.
+This demo shows the use of WUIList's pagination functionality through HTML buttons.
 The side button group with pull cover is configured with two buttons, one associated with a possible editing functionality and the other with deletion.
 List data is loaded directly in component creation.
 

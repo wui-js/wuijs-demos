@@ -2,7 +2,7 @@
 
 ## Description
 
-This demo shows the use of WUITable's pagination functionality via navigation links.
+This demo shows the use of WUITable's pagination functionality through HTML buttons.
 Table data is loaded directly in component creation.
 
 ## WUIJS Stack
