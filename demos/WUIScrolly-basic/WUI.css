@@ -2,6 +2,6 @@
 
 	/* wui-scrolly */
 
-	--wui-scrolly-paging-bgcolor-hidden: rgb(from #444 r g b / 60%);
+	--wui-scrolly-paging-bgcolor-hidden: rgb(from #444 r g b / 50%);
 	--wui-scrolly-paging-bgcolor-visible: rgb(from #444 r g b / 90%);
 }
