@@ -6,7 +6,7 @@ This demo shows the use of WUIPaging's basic functionality.
 
 ## WUIJS Stack
 
-- WUIPaging - 0.2.0
+- WUIPaging - 0.2
 
 ## Documentati	on
 
