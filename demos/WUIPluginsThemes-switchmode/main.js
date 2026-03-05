@@ -1,20 +1,13 @@
+const wuiComponents = {};
+
 const init = () => {
-	const prevButton = document.body.querySelector(".my-button.prev");
-	const nextButton = document.body.querySelector(".my-button.next");
-	const output = document.body.querySelector(".my-output");
-	const slider = new WUISlider({
-		selector: ".wui-slider.my-slider",
-		onChange: (index) => {
-			output.textContent = `Change to: ${index}`;
-		}
+	wuiComponents.selectpicker = new WUISelectpicker({
+		selector: ".wui-selectpicker.my-selectpicker",
+		value: "2"
 	});
-	slider.init();
-	prevButton.addEventListener("click", () => {
-		slider.prev();
-	});
-	nextButton.addEventListener("click", () => {
-		slider.next();
+	Object.values(wuiComponents).forEach((component) => {
+		component.init();
 	});
 }
 
-window.addEventListener("DOMContentLoaded", init);
+window.addEventListener("wuiLoad", init);
