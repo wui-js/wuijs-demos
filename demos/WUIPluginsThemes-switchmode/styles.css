@@ -15,6 +15,7 @@ nav {
 	margin: 10px;
 	align-items: center;
 	gap: 10px;
+	flex-direction: column;
 }
 
 /*.my-switch {}*/
