@@ -4,6 +4,7 @@ const init = () => {
 	const themes = new WUIPluginThemes();
 	wuiComponents.switch = new WUISwitch({
 		selector: ".wui-switch.my-switch",
+		value: "1",
 		activated: false,
 		onChange: (value, activated) => {
 			themes.setScheme(activated ? "dark" : "light");
