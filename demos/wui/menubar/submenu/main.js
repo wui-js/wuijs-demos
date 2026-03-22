@@ -6,7 +6,7 @@ const init = () => {
 		autoClose: false,
 		topButtons: [{
 			id: "logo",
-			iconImage: "https://wuijs.dev/Images/Logo/wuijs-isotype-color.svg",
+			iconImage: "https://wuijs.dev/images/logo/wuijs-isotype-color.svg",
 			label: "WUI /JS Lib",
 			tooltipable: false,
 			selectable: false
