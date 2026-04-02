@@ -1,3 +1,4 @@
 const testContentLog = (content) => {
-	console.log(content);
+	const output = document.body.querySelector(".my-output");
+	output.innerHTML = `<pre>${content}</pre>`;
 }
