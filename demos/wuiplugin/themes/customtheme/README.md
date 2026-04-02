@@ -14,4 +14,4 @@ This demo shows the use of WUIPluginsThemes's custom predefined themes.
 - [WUI/JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUISwitch](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiswitch): WUISwitch component documentation.
 - [WUIJS Plugins Lib](https://github.com/wuijsproject/wuijs-plugins-lib): Global documentation.
-- [WUIPluginsThemes](https://github.com/wuijsproject/wuijs-plugins-lib?tab=readme-ov-file#wuipluginsthemes): WUIPluginsThemes component documentation.
+- [WUIPluginsThemes](https://github.com/wuijsproject/wuijs-plugins-lib?tab=readme-ov-file#wuipluginthemes): WUIPluginsThemes component documentation.
