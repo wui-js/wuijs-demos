@@ -55,6 +55,6 @@ The WUI/JS Lab demos are available on CodeSandbox.io at the following address [h
 ## WUI/JS Plugins Lib
 
 1.	[https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-plugins-lib/tree/main/demos/wuiplugin/themes/switchmode](https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-plugins-lib/tree/main/demos/wuiplugin/themes/switchmode)<br>
-	This demo shows the use of WUIPluginsThemes's switch light and dark mode functionality.<br><br>
+	This demo shows the use of WUIPluginThemes's switch light and dark mode functionality.<br><br>
 2.	[https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-plugins-lib/tree/main/demos/wuiplugin/themes/customtheme](https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-plugins-lib/tree/main/demos/wuiplugin/themes/customtheme)<br>
-	This demo shows the use of WUIPluginsThemes's custom predefined themes.<br><br>
+	This demo shows the use of WUIPluginThemes's custom predefined themes.<br><br>
