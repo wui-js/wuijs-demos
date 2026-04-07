@@ -1,3 +1,16 @@
+> [!NOTE]
+> For the English version of this document, see [README.md](./README.md).
+
+# wuijs-lab
+
+<div align="center">
+	<img src="https://github.com/wuijsproject/wuijs-plugins-lib/blob/main/imgs/logo/wuijs-lab-logotype-color.svg" width="220" height="220">
+</div>
+
+License: `Apache License 2.0`
+
+Author: `Sergio E. Belmar V. <wuijs.project@gmail.com>`
+
 ## Demos
 
 The WUI/JS Lab demos are available on CodeSandbox.io at the following address [https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-lab](https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-lab).
@@ -60,3 +73,9 @@ The WUI/JS Lab demos are available on CodeSandbox.io at the following address [h
 	This demo shows the use of WUIPluginThemes's switch light and dark mode functionality.<br><br>
 2.	[https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-plugins-lib/tree/main/demos/wuiplugin/themes/customtheme](https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-plugins-lib/tree/main/demos/wuiplugin/themes/customtheme)<br>
 	This demo shows the use of WUIPluginThemes's custom predefined themes.<br><br>
+
+## Author
+
+**Sergio E. Belmar V.**
+- GitHub: [https://github.com/sbelmar](https://github.com/sbelmar)
+- LinkedIn: [https://www.linkedin.com/in/sbelmarv/](https://www.linkedin.com/in/sbelmarv/)
