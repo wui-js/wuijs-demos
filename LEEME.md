@@ -4,7 +4,7 @@
 # wuijs-lab
 
 <div align="center">
-	<img src="https://github.com/wui-js/wuijs-plugins-lib/blob/main/imgs/logo/wuijs-lab-logotype-color.svg" width="220" height="220">
+	<img src="https://github.com/wui-js/wuijs-lab/blob/main/imgs/logo/wuijs-lab-logotype-color.svg" width="220" height="220">
 </div>
 
 Licencia: `Licencia Apache 2.0`
