@@ -4,18 +4,35 @@
 # wuijs-lab
 
 <div align="center">
-	<img src="https://github.com/wuijsproject/wuijs-plugins-lib/blob/main/imgs/logo/wuijs-lab-logotype-color.svg" width="220" height="220">
+	<img src="https://github.com/wui-js/wuijs-plugins-lib/blob/main/imgs/logo/wuijs-lab-logotype-color.svg" width="220" height="220">
 </div>
 
 License: `Apache License 2.0`
 
 Author: `Sergio E. Belmar V. <wuijs.project@gmail.com>`
 
+## Overview
+
+WUI/JS Lab is a compilation of the examples or demos included in the documentation for the WUI/JS Main Lib and WUI/JS Plugins Lib libraries.
+It integrates with CodeSandbox.io to facilitate viewing and testing the demos; however, the project can also be downloaded for local execution.
+This repository does not include the source code for the [wuijs-main-lib](https://github.com/wui-js/wuijs-main-lib) and [wuijs-plugins-lib](https://github.com/wui-js/wuijs-plugins-lib) libraries, only the usage examples referencing the [wuijs.dev](https://wuijs.dev) domain.
+
+### About the WUI/JS Project
+
+WUI/JS Lab is part of the WUI/JS project, which currently consists of 3 repositories:
+
+-	[https://github.com/wui-js/wuijs-main-lib](https://github.com/wui-js/wuijs-main-lib)<br>
+	UI main library.<br><br>
+-	[https://github.com/wui-js/wuijs-plugins-lib](https://github.com/wui-js/wuijs-plugins-lib)<br>
+	UI main library plugins.<br><br>
+-	[https://github.com/wui-js/wuijs-lab](https://github.com/wui-js/wuijs-lab)<br>
+	Repository with demos and usage examples of both the main UI library classes and the plugins.<br><br>
+
 ## Demos
 
 The WUI/JS Lab demos are available on CodeSandbox.io at the following address [https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-lab](https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-lab).
 
-## WUI/JS Lib
+## WUI/JS Main Lib
 
 1.	[https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-lab/tree/main/demos/wui/resource-loader/basic](https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-lab/tree/main/demos/wui/resource-loader/basic)<br>
 	This demo shows the use of the WUI Resource Loader script.<br><br>
@@ -73,9 +90,3 @@ The WUI/JS Lab demos are available on CodeSandbox.io at the following address [h
 	This demo shows the use of WUIPluginThemes's switch light and dark mode functionality.<br><br>
 2.	[https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-plugins-lib/tree/main/demos/wuiplugin/themes/customtheme](https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-plugins-lib/tree/main/demos/wuiplugin/themes/customtheme)<br>
 	This demo shows the use of WUIPluginThemes's custom predefined themes.<br><br>
-
-## Author
-
-**Sergio E. Belmar V.**
-- GitHub: [https://github.com/sbelmar](https://github.com/sbelmar)
-- LinkedIn: [https://www.linkedin.com/in/sbelmarv/](https://www.linkedin.com/in/sbelmarv/)
