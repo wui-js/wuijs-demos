@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> The GitHub account `wuiproject` was migrated to `wui-js` to match the name with the NPM account.
+
 > [!NOTE]
 > For the English version of this document, see [README.md](./README.md).
 
@@ -7,9 +10,9 @@
 	<img src="https://github.com/wui-js/wuijs-lab/blob/main/imgs/logo/wuijs-lab-logotype-color.svg" width="220" height="220">
 </div>
 
-License: `Apache License 2.0`
+**License**: `Apache License 2.0`
 
-Author: `Sergio E. Belmar V. <wuijs.project@gmail.com>`
+**Author**: `Sergio E. Belmar V. <wuijs.project@gmail.com>`
 
 ## Overview
 
