@@ -21,10 +21,9 @@ const init = () => {
 	});
 	const button2 = new WUIButton({
 		selector: ".wui-button.button2",
-		iconClass: "wui-icon float-left mappointer-fill",
-		textClass: "my-label",
-		textData: [["action", "navigate"]],
-		submit: true,
+		//text: "button 2",
+		//iconClass: "wui-icon float-left mappointer-fill",
+		//submit: true,
 		onClick: () => {
 			output.textContent = "Click button 2";
 		},
