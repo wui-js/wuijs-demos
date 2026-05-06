@@ -1,14 +1,17 @@
 > [!IMPORTANT]
 > La cuenta de GitHub `@wuiproject` se migró a `@wui-js` para que coincidiera con el nombre de la cuenta de NPM.
 
-> [!NOTE]
-> For the English version of this document, see [README-en.md](https://github.com/wui-js/wuijs-demos/blob/main/docs/README-en.md)
+<p align="right">
+	[English](https://github.com/wui-js/wuijs-demos/blob/main/docs/README-en.md) |
+	[Español](https://github.com/wui-js/wuijs-demos/blob/main/docs/README-es.md)
+</p>
+---
 
 # wuijs-demos
 
-<div align="center">
+<p align="center">
 	<img src="https://github.com/wui-js/wuijs-demos/blob/main/imgs/logo/wuijs-demos-logotype-color.svg" width="220" height="220">
-</div>
+</p>
 
 |                       | |
 | --------------------- | ----------- |
