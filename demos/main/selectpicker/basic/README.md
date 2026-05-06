@@ -6,9 +6,11 @@ This demo shows the use of WUISelectpicker's basic functionality.
 
 ## WUI JS Stack
 
-- WUISelectpicker - 0.4
+- WUIIcon - 0.3
+- WUISelectpicker - 0.5
 
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib): Global documentation.
-- [WUISelectpicker](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wselectpicker): WUISelectpicker component documentation.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wui-icon): WUIIcon component documentation.
+- [WUISelectpicker](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wui-selectpicker): WUISelectpicker component documentation.

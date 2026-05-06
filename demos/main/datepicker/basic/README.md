@@ -6,9 +6,11 @@ This demo shows the use of WUIDatepicker's basic functionality.
 
 ## WUI JS Stack
 
-- WUIDatepicker - 0.4
+- WUIIcon - 0.3
+- WUIDatepicker - 0.5
 
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib): Global documentation.
-- [WUIDatepicker](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wuidatepicker): WUIDatepicker component documentation.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wui-icon): WUIIcon component documentation.
+- [WUIDatepicker](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wui-datepicker): WUIDatepicker component documentation.

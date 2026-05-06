@@ -8,11 +8,11 @@ List data is loaded directly in component creation.
 
 ## WUI JS Stack
 
-- WUIIcon - 0.2
-- WUIList - 0.3
+- WUIIcon - 0.3
+- WUIList - 0.4
 
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib): Global documentation.
-- [WUIIcon](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wuiicon): WUIIcon component documentation.
-- [WUIList](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wuilist): WUIList component documentation.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wui-icon): WUIIcon component documentation.
+- [WUIList](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wui-list): WUIList component documentation.

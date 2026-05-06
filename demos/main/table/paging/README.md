@@ -7,9 +7,9 @@ Table data is loaded directly in component creation.
 
 ## WUI JS Stack
 
-- WUITable - 0.4
+- WUITable - 0.5
 
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib): Global documentation.
-- [WUITable](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wuitable): WUITable component documentation.
+- [WUITable](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wui-table): WUITable component documentation.

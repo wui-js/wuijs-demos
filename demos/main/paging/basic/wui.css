@@ -1,9 +1,0 @@
-:root {
-
-	/* wui-paging */
-
-	--wui-paging-page-transition-time: .4s;
-	--wui-paging-page-bgcolor: transparent;
-	--wui-paging-page-scroll-bgcolor-out: rgb(from #353a40 r g b / 20%);
-	--wui-paging-page-scroll-bgcolor-over: rgb(from #353a40 r g b / 40%);
-}

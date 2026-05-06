@@ -6,9 +6,9 @@ This demo shows the use of WUIColorpicker's basic functionality.
 
 ## WUI JS Stack
 
-- WUIColorpicker - 0.4
+- WUIColorpicker - 0.5
 
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib): Global documentation.
-- [WUIColorpicker](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wuiicon): WUIColorpicker component documentation.
+- [WUIColorpicker](https://github.com/wui-js/wuijs-main-lib?tab=readme-ov-file#wui-colorpicker): WUIColorpicker component documentation.
