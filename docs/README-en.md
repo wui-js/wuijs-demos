@@ -10,9 +10,16 @@
 	<img src="https://github.com/wui-js/wuijs-demos/blob/main/imgs/logo/wuijs-demos-logotype-color.svg" width="220" height="220">
 </div>
 
-**License**: `Apache License 2.0`
-
-**Author**: `Sergio E. Belmar V. <wuijs.project@gmail.com>`
+|                      | |
+| -------------------- | ----------- |
+| **Library name**     | `wuijs-demos` |
+| **Library version**  | `0.1.2` |
+| **Document version** | `0.1.2.20260506.0` |
+| **License**          | `Apache License 2.0` |
+| **Author**           | `Sergio E. Belmar V. <wuijs.project@gmail.com>` |
+| **Repository**       | [https://github.com/wui-js/wuijs-demos](https://github.com/wui-js/wuijs-demos) |
+| **Documentation**    | [https://docs.wuijs.dev](https://docs.wuijs.dev) |
+| **Website**          | [https://wuijs.dev](https://wuijs.dev) |
 
 ## Overview
 

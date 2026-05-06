@@ -10,15 +10,22 @@
 	<img src="https://github.com/wui-js/wuijs-demos/blob/main/imgs/logo/wuijs-demos-logotype-color.svg" width="220" height="220">
 </div>
 
-**Licencia**: `Licencia Apache 2.0`
-
-**Autor**: `Sergio E. Belmar V. <wuijs.project@gmail.com>`
+|                       | |
+| --------------------- | ----------- |
+| **Nombre librería**   | `wuijs-demos` |
+| **Versión librería**  | `0.1.2` |
+| **Versión documento** | `0.1.2.20260506.0` |
+| **Licencia**          | `Licencia Apache 2.0` |
+| **Autor**             | `Sergio E. Belmar V. <wuijs.project@gmail.com>` |
+| **Repositorio**       | [https://github.com/wui-js/wuijs-demos](https://github.com/wui-js/wuijs-demos) |
+| **Documentación**     | [https://docs.wuijs.dev](https://docs.wuijs.dev) |
+| **Sitio web**         | [https://wuijs.dev](https://wuijs.dev) |
 
 ## Descripción General
 
 WUI/JS Demos es una compilación de los ejemplos o demos incluidos en la documentación de las librerías de WUI/JS Main Lib y WUI/JS Plugins Lib.
 Se integra con CodeSandbox.io para facilitar la visualización y prueba de los demos, no obstante el proyecto puede ser descargado para su ejecución local.
-Este repositorio no incorpora las fuentes de las librerías [wuijs-main-lib](https://github.com/wui-js/wuijs-main-lib) y [wuijs-plugins-lib](https://github.com/wui-js/wuijs-plugins-lib), solo los ejemplos de uso haciendo referencia al dominio [wuijs.dev](https://wuijs.dev).
+Este repositorio no incorpora las fuentes de las librerías [wuijs-main-lib](https://github.com/wui-js/wuijs-main-lib) y [wuijs-plugins-lib](https://github.com/wui-js/wuijs-plugins-lib), sólo los ejemplos de uso haciendo referencia al dominio [wuijs.dev](https://wuijs.dev).
 
 ### Acerca del Proyecto WUI/JS
 
