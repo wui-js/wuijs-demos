@@ -8,7 +8,7 @@ List data is loaded directly in component creation.
 
 ## WUI JS Stack
 
-- WUIIcon - 0.3
+- WUIIcon - 0.4
 - WUIList - 0.4
 
 ## Documentation
