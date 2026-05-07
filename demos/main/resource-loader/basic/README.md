@@ -7,7 +7,7 @@ This demo shows the use of the WUI Resource Loader script.
 ## WUI JS Stack
 
 - WUI/JS Main Lib - 0.6.0
-- WUISelectpicker - 0.5
+- WUISelectpicker - 0.6
 - WUISwitch - 0.6
 
 ## Documentation
