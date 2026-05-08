@@ -14,7 +14,7 @@ This demo shows the use of WUIForm with fill style and WUI inputs components.
 - WUIColorpicker - 0.5
 - WUISwitch - 0.6
 - WUIIntensity - 0.4
-- WUIButton - 0.5
+- WUIButton - 0.6
 
 ## Documentation
 
