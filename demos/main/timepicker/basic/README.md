@@ -6,7 +6,7 @@ This demo shows the use of WUITimepicker's basic functionality.
 
 ## WUI JS Stack
 
-- WUITimepicker - 0.5
+- WUITimepicker - 0.6
 
 ## Documentation
 

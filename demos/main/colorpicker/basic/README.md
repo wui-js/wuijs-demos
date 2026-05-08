@@ -6,7 +6,7 @@ This demo shows the use of WUIColorpicker's basic functionality.
 
 ## WUI JS Stack
 
-- WUIColorpicker - 0.5
+- WUIColorpicker - 0.6
 
 ## Documentation
 

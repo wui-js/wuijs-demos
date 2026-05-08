@@ -7,7 +7,7 @@ This demo shows the use of WUIDatepicker's basic functionality.
 ## WUI JS Stack
 
 - WUIIcon - 0.4
-- WUIDatepicker - 0.5
+- WUIDatepicker - 0.6
 
 ## Documentation
 
