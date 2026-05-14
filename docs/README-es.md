@@ -14,8 +14,8 @@
 |                       | |
 | --------------------- | ----------- |
 | **Nombre librería**   | `wuijs-demos` |
-| **Versión librería**  | `0.1.2` |
-| **Versión documento** | `0.1.2.20260506.0` |
+| **Versión librería**  | `0.1.3` |
+| **Versión documento** | `0.1.3.20260514.0` |
 | **Licencia**          | `Licencia Apache 2.0` |
 | **Autor**             | `Sergio E. Belmar V. <wuijs.project@gmail.com>` |
 | **Repositorio**       | [https://github.com/wui-js/wuijs-demos](https://github.com/wui-js/wuijs-demos) |
@@ -33,11 +33,11 @@ Este repositorio no incorpora las fuentes de las librerías [wuijs-main-lib](htt
 WUI/JS Demos es parte del proyecto WUI/JS, que consta actualmente de 4 repositorios:
 
 -	[https://github.com/wui-js/wuijs-main-lib](https://github.com/wui-js/wuijs-main-lib)<br>
-	Librería UI principal.<br><br>
--	[https://github.com/wui-js/wuijs-plugins-lib](https://github.com/wui-js/wuijs-plugins-lib)<br>
-	Librería de complementos UI.<br><br>
+	Librería Principal UI.<br><br>
 -	[https://github.com/wui-js/wuijs-environment-lib](https://github.com/wui-js/wuijs-environment-lib)<br>
-	Librería puente entre entornos web y motores de renderizado web nativos.<br><br>
+	Librería Puente UI entre entornos web y motores de renderizado web nativos.<br><br>
+-	[https://github.com/wui-js/wuijs-plugins-lib](https://github.com/wui-js/wuijs-plugins-lib)<br>
+	Librería de Complementos UI.<br><br>
 -	[https://github.com/wui-js/wuijs-demos](https://github.com/wui-js/wuijs-demos)<br>
 	Repositorio con demos y ejemplos de uso de las librerías del proyecto.<br><br>
 
