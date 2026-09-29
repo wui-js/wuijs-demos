@@ -10,7 +10,7 @@ Esta demostración muestra el uso de WUIFormat para formateo de números, cadena
 
 ## Stack WUI/JS
 
-- WUIFormat - 0.5
+- WUIFormat - 0.6
 
 ## Documentación
 
@@ -41,7 +41,7 @@ Código CSS:
 Cabecera HTML:
 
 ```html
-<script type="text/javascript" src="/libraries/wui-js/main/format/wui-format-0.5.js"></script>
+<script type="text/javascript" src="/libraries/wui-js/main/format/wui-format-0.6.js"></script>
 ```
 
 HTML code:

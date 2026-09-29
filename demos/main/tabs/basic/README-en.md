@@ -10,7 +10,7 @@ This demo shows the use of WUITabs's basic functionality.
 
 ## WUI/JS Stack
 
-- WUIIcon - 0.11
+- WUIIcon - 0.13
 - WUITabs - 0.7
 
 ## Documentation
@@ -69,8 +69,8 @@ nav {
 HTML head:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.11.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.11.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.css">
 <link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/tabs/wui-tabs-0.7.root.css">
 <link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/tabs/wui-tabs-0.7.css">
 <script type="text/javascript" src="/libraries/wui-js/main/tabs/wui-tabs-0.7.js"></script>

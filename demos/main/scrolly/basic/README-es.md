@@ -10,7 +10,7 @@ Esta demostración muestra el uso de las funciones básicas de WUIScrolly.
 
 ## Stack WUI/JS
 
-- WUIScrolly - 0.7
+- WUIScrolly - 0.8
 
 ## Documentación
 
@@ -102,9 +102,9 @@ body {
 Cabecera HTML:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/scrolly/wui-scrolly-0.7.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/scrolly/wui-scrolly-0.7.css">
-<script type="text/javascript" src="/libraries/wui-js/main/scrolly/wui-scrolly-0.7.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/scrolly/wui-scrolly-0.8.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/scrolly/wui-scrolly-0.8.css">
+<script type="text/javascript" src="/libraries/wui-js/main/scrolly/wui-scrolly-0.8.js"></script>
 ```
 
 Código HTML:

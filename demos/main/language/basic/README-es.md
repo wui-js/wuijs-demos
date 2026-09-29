@@ -10,7 +10,7 @@ Este demo muestra el uso de la funcionalidad básica de WUILanguage.
 
 ## Stack WUI/JS
 
-- WUILanguage - 0.7
+- WUILanguage - 0.8
 
 ## Documentación
 
@@ -88,6 +88,7 @@ return {
 
 > [!TIP]
 > Si se desea agregar contenido dinámico dentro de un texto, se recomienda utilizar formato de los archivos de idioma `js` (`mode: "js"`) y agregar el texto mediante el método de interpolación de cadenas, conosido también como literales de plantilla. Por ejemplo, ``mykey: `My ${var} text` ``.
+> Alternativamente, se puede utilizar el formato `json` (`mode: "json"`) junto a las propiedades `fixedDictionary` y `langDictionary`, las cuales definen diccionarios de términos cuyas llaves son reemplazadas por su valor al momento de la carga. Puede revisar su uso en el demo [dictionary](../dictionary/README-es.md).
 
 Código CSS:
 
@@ -121,7 +122,7 @@ nav select {
 Cabecera HTML:
 
 ```html
-<script type="text/javascript" src="/libraries/wui-js/main/language/wui-language-0.7.js"></script>
+<script type="text/javascript" src="/libraries/wui-js/main/language/wui-language-0.8.js"></script>
 ```
 
 Código HTML:
@@ -147,6 +148,8 @@ const init = () => {
 		//selector: ".wui-language",
 		//directory: "languages/",
 		//sets: ["main"],
+		//fixedDictionary: {},
+		//langDictionary: {},
 		lang: "es",
 		//mode: "js",
 		//dataKey: "key",

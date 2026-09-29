@@ -4,6 +4,8 @@ const init = () => {
 		//selector: ".wui-language",
 		//directory: "languages/",
 		//sets: ["main"],
+		//fixedDictionary: {},
+		//langDictionary: {},
 		lang: "en",
 		//mode: "js",
 		//dataKey: "key",

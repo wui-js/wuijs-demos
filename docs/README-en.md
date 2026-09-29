@@ -55,54 +55,56 @@ The WUI/JS Demos demos are available on CodeSandbox.io at the following address 
 	This demo shows the use of WUIBody's import functionality.<br><br>
 4.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-language-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-language-basic&lang=en)<br>
 	This demo shows the use of WUILanguage's basic functionality.<br><br>
-5.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-scrolly-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-scrolly-basic&lang=en)<br>
+5.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-language-dictionary&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-language-dictionary&lang=en)<br>
+	This demo shows the use of the WUILanguage term dictionaries through the `fixedDictionary` and `langDictionary` properties.<br><br>
+6.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-scrolly-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-scrolly-basic&lang=en)<br>
 	This demo shows the use of WUIScrolly's basic functionality.<br><br>
-6.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-icon-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-icon-basic&lang=en)<br>
+7.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-icon-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-icon-basic&lang=en)<br>
 	This demo shows the use of WUIIcon's basic implementation.<br><br>
-7.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-fade-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-fade-basic&lang=en)<br>
+8.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-fade-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-fade-basic&lang=en)<br>
 	This demo shows the use of WUIFade's basic functionality.<br><br>
-8.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-loader-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-loader-basic&lang=en)<br>
+9.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-loader-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-loader-basic&lang=en)<br>
 	This demo shows the use of WUILoader's basic functionality.<br><br>
-9.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-tooltip-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-tooltip-basic&lang=en)<br>
+10.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-tooltip-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-tooltip-basic&lang=en)<br>
 	This demo shows the use of WUITooltip's basic functionality.<br><br>
-10.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-modal-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-modal-basic&lang=en)<br>
+11.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-modal-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-modal-basic&lang=en)<br>
 	This demo shows the use of WUIModal's basic functionality.<br><br>
-11.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-paging-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-paging-basic&lang=en)<br>
+12.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-paging-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-paging-basic&lang=en)<br>
 	This demo shows the use of WUIPaging's submenu functionality.<br><br>
-12.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-slider-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-slider-basic&lang=en)<br>
+13.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-slider-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-slider-basic&lang=en)<br>
 	This demo shows the use of WUISlider's basic functionality.<br><br>
-13.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-tabs-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-tabs-basic&lang=en)<br>
+14.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-tabs-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-tabs-basic&lang=en)<br>
 	This demo shows the use of WUITabs's basic functionality.<br><br>
-14.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-menubar-submenu&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-menubar-submenu&lang=en)<br>
+15.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-menubar-submenu&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-menubar-submenu&lang=en)<br>
 	This demo shows the use of WUIMenubar's submenu functionality.<br><br>
-15.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-list-paging-buttongroup&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-list-paging-buttongroup&lang=en)<br>
+16.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-list-paging-buttongroup&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-list-paging-buttongroup&lang=en)<br>
 	This demo shows the use of WUIList's pagination functionality through HTML buttons.<br>
 	The side button group with pull cover is configured with two buttons, one associated with a possible editing functionality and the other with deletion.<br>
 	List data is loaded directly in component creation.<br><br>
-16.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-table-paging&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-table-paging&lang=en)<br>
+17.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-table-paging&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-table-paging&lang=en)<br>
 	This demo shows the use of WUITable's pagination functionality through HTML buttons.<br>
 	Table data is loaded directly in component creation.<br><br>
-17.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-fillstyle&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-fillstyle&lang=en)<br>
+18.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-fillstyle&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-fillstyle&lang=en)<br>
 	This demo shows the use of WUIForm with fill style and native HTML inputs.<br><br>
-18.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-linestyle&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-linestyle&lang=en)<br>
+19.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-linestyle&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-linestyle&lang=en)<br>
 	This demo shows the use of WUIForm with line style and native HTML inputs.<br><br>
-19.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-wuiinputs&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-wuiinputs&lang=en)<br>
+20.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-wuiinputs&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-form-wuiinputs&lang=en)<br>
 	This demo shows the use of WUIForm with fill style and WUI inputs components.<br><br>
-20.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-format-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-format-basic&lang=en)<br>
+21.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-format-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-format-basic&lang=en)<br>
 	This demo shows the use of WUIFormat for number, string and date formatting.<br><br>
-21.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-selectpicker-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-selectpicker-basic&lang=en)<br>
+22.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-selectpicker-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-selectpicker-basic&lang=en)<br>
 	This demo shows the use of WUISelectpicker's basic functionality.<br><br>
-22.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-datepicker-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-datepicker-basic&lang=en)<br>
+23.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-datepicker-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-datepicker-basic&lang=en)<br>
 	This demo shows the use of WUIDatepicker's basic functionality.<br><br>
-23.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-timepicker-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-timepicker-basic&lang=en)<br>
+24.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-timepicker-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-timepicker-basic&lang=en)<br>
 	This demo shows the use of WUITimepicker's basic functionality.<br><br>
-24.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-colorpicker-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-colorpicker-basic&lang=en)<br>
+25.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-colorpicker-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-colorpicker-basic&lang=en)<br>
 	This demo shows the use of WUIColorpicker's basic functionality.<br><br>
-25.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-switch-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-switch-basic&lang=en)<br>
+26.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-switch-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-switch-basic&lang=en)<br>
 	This demo shows the use of WUISwitch's basic functionality.<br><br>
-26.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-intensity-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-intensity-basic&lang=en)<br>
+27.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-intensity-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-intensity-basic&lang=en)<br>
 	This demo shows the use of WUIIntensity's basic functionality.<br><br>
-27.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-button-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-button-basic&lang=en)<br>
+28.	[http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-button-basic&lang=en](http://docs.wuijs.dev/pages/docs/home/?id=wuijs-demos-main-button-basic&lang=en)<br>
 	This demo shows the use of WUIButton's basic functionality.<br><br>
 
 ## WUI/JS Plugins Lib

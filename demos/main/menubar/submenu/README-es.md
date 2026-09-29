@@ -10,7 +10,7 @@ Esta demostración muestra el uso de la funcionalidad de submenú de WUIMenubar.
 
 ## Stack WUI/JS
 
-- WUIIcon - 0.11
+- WUIIcon - 0.13
 - WUIMenubar - 0.10
 
 ## Documentación
@@ -63,8 +63,8 @@ body {
 Cabecera HTML:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.11.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.11.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.css">
 <link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/menubar/wui-menubar-0.10.root.css">
 <link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/menubar/wui-menubar-0.10.css">
 <script type="text/javascript" src="/libraries/wui-js/main/menubar/wui-menubar-0.10.js"></script>

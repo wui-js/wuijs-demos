@@ -10,8 +10,8 @@ This demo shows the use of WUIForm with fill style and native HTML inputs.
 
 ## WUI/JS Stack
 
-- WUIIcon - 0.11
-- WUIForm - 0.12
+- WUIIcon - 0.13
+- WUIForm - 0.13
 
 ## Documentation
 
@@ -53,11 +53,11 @@ nav {
 HTML Head:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.11.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.11.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.12.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.12.css">
-<script type="text/javascript" src="/libraries/wui-js/main/form/wui-form-0.12.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.13.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.13.css">
+<script type="text/javascript" src="/libraries/wui-js/main/form/wui-form-0.13.js"></script>
 ```
 
 HTML code:

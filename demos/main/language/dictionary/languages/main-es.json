@@ -1,0 +1,8 @@
+{
+	"titles": {
+		"test": "{greeting}, bienvenido a {app}"
+	},
+	"texts": {
+		"test": "La versión {version} de {app} está licenciada bajo {license}."
+	}
+}

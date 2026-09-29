@@ -10,7 +10,7 @@ This demo shows the use of WUIColorpicker's basic functionality.
 
 ## WUI/JS Stack
 
-- WUIColorpicker - 0.12
+- WUIColorpicker - 0.13
 
 ## Documentation
 
@@ -107,9 +107,9 @@ nav {
 HTML head:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/colorpicker/wui-colorpicker-0.12.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/colorpicker/wui-colorpicker-0.12.css">
-<script type="text/javascript" src="/libraries/wui-js/main/colorpicker/wui-colorpicker-0.12.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/colorpicker/wui-colorpicker-0.13.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/colorpicker/wui-colorpicker-0.13.css">
+<script type="text/javascript" src="/libraries/wui-js/main/colorpicker/wui-colorpicker-0.13.js"></script>
 ```
 
 HTML code:

@@ -10,7 +10,7 @@ This demo shows the use of WUIBody's import functionality.
 
 ## WUI/JS Stack
 
-- WUIBody - 0.8
+- WUIBody - 0.10
 
 ## Documentation
 
@@ -24,39 +24,39 @@ This demo shows the use of WUIBody's import functionality.
 | CSS  | [style.css](./style.css) |
 | HTML | [index.html](./index.html) |
 | JS   | [main.js](./main.js) |
-| CSS  | [sections/my-section/section.css](./sections/my-section/section.css) |
-| HTML | [sections/my-section/section.htm](./sections/my-section/section.htm) |
-| JS   | [sections/my-section/section.js](./sections/my-section/section.js) |
+| CSS  | [fragments/my-fragment/fragment.css](./fragments/my-fragment/fragment.css) |
+| HTML | [fragments/my-fragment/fragment.htm](./fragments/my-fragment/fragment.htm) |
+| JS   | [fragments/my-fragment/fragment.js](./fragments/my-fragment/fragment.js) |
 
 ## Implementation
 
-CSS content of the `./sections/my-section/section.css` file:
+CSS content of the `./fragments/my-fragment/fragment.css` file:
 
 ```css
-.my-section {
+.my-fragment {
 	margin: 10px;
 }
 
-.my-section a,
-.my-section a:visited {
+.my-fragment a,
+.my-fragment a:visited {
 	text-decoration: none;
 	font-size: 20px;
 	color: blue;
 }
 ```
 
-HTML content of the `./sections/my-section/section.htm` file:
+HTML content of the `./fragments/my-fragment/fragment.htm` file:
 
 ```html
-<section id="mySection" class="my-section">
+<section id="myFragment" class="my-fragment">
 	<a href="https://wuijs.dev" target="_blank">go to WUI/JS Project website!</a>
 </section>
 ```
 
-JS content of the `./sections/my-section/section.js` file:
+JS content of the `./fragments/my-fragment/fragment.js` file:
 
 ```js
-const mySectionContentLog = (content) => {
+const myFragmentContentLog = (content) => {
 	const output = document.body.querySelector(".output");
 	output.innerHTML = `<pre>${content}</pre>`;
 }
@@ -86,13 +86,13 @@ body {
 HTML head:
 
 ```html
-<script type="text/javascript" src="/libraries/wui-js/main/body/wui-body-0.8.js"></script>
+<script type="text/javascript" src="/libraries/wui-js/main/body/wui-body-0.10.js"></script>
 ```
 
 HTML code:
 
 ```html
-<section id="mySection"></section>
+<section id="myFragment"></section>
 <div class="output"><pre>loading content...</pre></div>
 ```
 
@@ -102,15 +102,15 @@ JS code:
 const init = () => {
 	const body = new WUIBody({
 		//environment: "web",
-		importDirectory: "./sections/",
+		importDirectory: "./fragments/",
 		//importMode: "fetch",
 		onCompleted: () => {
 			body.prepare();
 		},
 		debug: true
 	});
-	body.import("mySection", "my-section/section", () => {
-		mySectionContentLog("test content loaded");
+	body.import("myFragment", "my-fragment/fragment", () => {
+		myFragmentContentLog("test content loaded");
 	});
 }
 
