@@ -3,8 +3,8 @@ const init = () => {
 	const prevButton = document.body.querySelector("header > button.prev");
 	const nextButton = document.body.querySelector("header > button.next");
 	const lastButton = document.body.querySelector("header > button.last");
-	const paging = document.body.querySelector("header > span");
-	const output = document.body.querySelector(".output");
+	const paging = document.body.querySelector("header > .paging");
+	const output = document.body.querySelector("footer > .output");
 	const list = new WUIList({
 		selector: ".wui-list.my-list",
 		paging: 5,

@@ -10,12 +10,12 @@ Esta demostración muestra el uso de las funciones básicas de WUISlider.
 
 ## Stack WUI/JS
 
-- WUISlider - 0.9
+- WUISlider - 0.10
 
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUISlider](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-slider): Documentación del componente `WUISlider`.
+- [WUISlider](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md#wui-slider): Documentación del componente `WUISlider`.
 
 ## Fuentes
 
@@ -26,6 +26,8 @@ Esta demostración muestra el uso de las funciones básicas de WUISlider.
 | JS   | [main.js](./main.js) |
 
 ## Implementación
+
+Código CSS:
 
 ```css
 html,
@@ -72,15 +74,6 @@ nav {
 	gap: 10px;
 }
 
-nav > button {
-	height: 24px;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
-	border: 1px solid #ccc;
-	background-color: transparent;
-}
-
 .output {
 	width: 100%;
 	height: 40px;
@@ -92,15 +85,15 @@ nav > button {
 Cabecera HTML:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/slider/wui-slider-0.9.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/slider/wui-slider-0.9.css">
-<script type="text/javascript" src="/libraries/wui-js/main/slider/wui-slider-0.9.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/slider/wui-slider-0.10.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/slider/wui-slider-0.10.css">
+<script type="text/javascript" src="/libraries/wui-js/main/slider/wui-slider-0.10.js"></script>
 ```
 
 Código HTML:
 
 ```html
-<div class="wui-slider">
+<div class="wui-slider my-slider">
 	<div class="body">
 		<div class="slide slide1">Diapositiva 1</div>
 		<div class="slide slide2">Diapositiva 2</div>
@@ -109,8 +102,8 @@ Código HTML:
 	<div class="paging dots"></div>
 </div>
 <nav>
-	<button class="prev">&#9204; enterior</button>
-	<button class="next">siguiente &#9205;</button>
+	<button class="my-button prev">&#9204; anterior</button>
+	<button class="my-button next">siguiente &#9205;</button>
 </nav>
 <div class="output"></div>
 ```
@@ -124,6 +117,7 @@ const init = () => {
 	const output = document.body.querySelector(".output");
 	const slider = new WUISlider({
 		selector: ".wui-slider.my-slider",
+		transitionDelay: 300,
 		onChange: (index) => {
 			output.textContent = `Cambio a: ${index}`;
 		}

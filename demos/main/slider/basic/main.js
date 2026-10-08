@@ -4,6 +4,7 @@ const init = () => {
 	const output = document.body.querySelector(".output");
 	const slider = new WUISlider({
 		selector: ".wui-slider.my-slider",
+		transitionDelay: 300,
 		onChange: (index) => {
 			output.textContent = `Change to: ${index}`;
 		}

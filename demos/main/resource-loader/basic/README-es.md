@@ -10,8 +10,8 @@ Este demo muestra el uso del script WUI Resource Loader.
 
 ## Stack WUI/JS
 
-- WUI/JS Main Lib - 0.15.0
-- WUISelectpicker - 0.14
+- WUI/JS Main Lib - 0.16.0
+- WUISelectpicker - 0.15
 - WUISwitch - 0.10
 
 ## Documentación
@@ -61,7 +61,7 @@ nav {
 Cabecera HTML:
 
 ```html
-<script type="text/javascript" src="/libraries/wui-js/main/wui.js?v=0.15.0&c=selectpicker,switch"></script>
+<script type="text/javascript" src="/libraries/wui-js/main/wui.js?v=0.16.0&c=selectpicker,switch"></script>
 ```
 
 > [!NOTE]

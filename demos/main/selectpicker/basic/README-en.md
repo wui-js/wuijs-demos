@@ -11,7 +11,7 @@ Load the selector options by reading the `<option>` elements from the DOM.
 
 ## WUI/JS Stack
 
-- WUISelectpicker - 0.14
+- WUISelectpicker - 0.15
 
 ## Documentation
 

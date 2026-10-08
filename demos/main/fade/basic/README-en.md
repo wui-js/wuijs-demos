@@ -10,7 +10,7 @@ This demo shows the use of WUIFade's basic functionality.
 
 ## WUI/JS Stack
 
-- WUIFade - 0.6
+- WUIFade - 0.7
 
 ## Documentation
 
@@ -75,7 +75,7 @@ nav button {
 HTML head:
 
 ```html
-<script type="text/javascript" src="/libraries/wui-js/main/fade/wui-fade-0.6.js"></script>
+<script type="text/javascript" src="/libraries/wui-js/main/fade/wui-fade-0.7.js"></script>
 ```
 
 HTML code:
@@ -96,7 +96,8 @@ const init = () => {
 	const fadeoutButton = document.querySelector("button.fadeout");
 	const options = {
 		delay: 200,
-		//display: "block"
+		//display: "block",
+		//callback: () => {}
 	};
 	fadeinButton.addEventListener("click", () => {
 		element.wuiFadein(options);

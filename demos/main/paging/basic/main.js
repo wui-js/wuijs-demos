@@ -25,6 +25,11 @@ const init = () => {
 			});
 		})
 	});
+	document.querySelectorAll("button.back").forEach(button => {
+		button.addEventListener("click", () => {
+			paging.back();
+		});
+	});
 }
 
 window.addEventListener("DOMContentLoaded", init);

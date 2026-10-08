@@ -10,7 +10,7 @@ Esta demostración muestra el uso de las funciones básicas de WUIPaging.
 
 ## Stack WUI/JS
 
-- WUIPaging - 0.11
+- WUIPaging - 0.12
 
 ## Documentación
 
@@ -76,9 +76,9 @@ body {
 Cabecera HTML:
 
 ```html
-<link rel="stylesheet" type="text/css" href="/libraries/wui-js/main/paging/wui-paging-0.11.root.css">
-<link rel="stylesheet" type="text/css" href="/libraries/wui-js/main/paging/wui-paging-0.11.css">
-<script type="text/javascript" src="/libraries/wui-js/main/paging/wui-paging-0.11.js"></script>
+<link rel="stylesheet" type="text/css" href="/libraries/wui-js/main/paging/wui-paging-0.12.root.css">
+<link rel="stylesheet" type="text/css" href="/libraries/wui-js/main/paging/wui-paging-0.12.css">
+<script type="text/javascript" src="/libraries/wui-js/main/paging/wui-paging-0.12.js"></script>
 ```
 
 Código HTML:
@@ -95,6 +95,7 @@ Código HTML:
 		<h1>Página 2</h1>
 		<nav>
 			<button class="go-page1">&#9204; ir a la página 1</button>
+			<button class="back">&#8630; volver</button>
 			<button class="go-page3">ir a la página 3 &#9205;</button>
 		</nav>
 	</div>
@@ -102,6 +103,7 @@ Código HTML:
 		<h1>Página 3</h1>
 		<nav>
 			<button class="go-page2">&#9204; ir a la página 2</button>
+			<button class="back">&#8630; volver</button>
 		</nav>
 	</div>
 </div>
@@ -138,6 +140,11 @@ const init = () => {
 				paging.select(target);
 			});
 		})
+	});
+	document.querySelectorAll("button.back").forEach(button => {
+		button.addEventListener("click", () => {
+			paging.back();
+		});
 	});
 }
 

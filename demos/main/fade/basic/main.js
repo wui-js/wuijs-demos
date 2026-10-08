@@ -4,7 +4,8 @@ const init = () => {
 	const fadeoutButton = document.querySelector("button.fadeout");
 	const options = {
 		delay: 200,
-		//display: "block"
+		//display: "block",
+		//callback: () => {}
 	};
 	fadeinButton.addEventListener("click", () => {
 		element.wuiFadein(options);

@@ -10,7 +10,7 @@ This demo shows the use of WUIFormat for number, string and date formatting.
 
 ## WUI/JS Stack
 
-- WUIFormat - 0.6
+- WUIFormat - 0.7
 
 ## Documentation
 
@@ -40,7 +40,7 @@ CSS Code:
 HTML head:
 
 ```html
-<script type="text/javascript" src="/libraries/wui-js/main/format/wui-format-0.6.js"></script>
+<script type="text/javascript" src="/libraries/wui-js/main/format/wui-format-0.7.js"></script>
 ```
 
 HTML code:
@@ -218,7 +218,7 @@ const stringNIDValidation = () => {
 
 const dateInitDefaults = () => {
 	//Date.prototype.wuiDefaults.utc = false;
-	//Date.prototype.wuiDefaults.locales = "en-US";
+	//Date.prototype.wuiDefaults.locale = "en-US";
 	//Date.prototype.wuiDefaults.dateFormat = "yyyy-mm-dd";
 	//Date.prototype.wuiDefaults.timeFormat = "hh:MM:ss";
 	//Date.prototype.wuiDefaults.datetimeFormat = "yyyy-mm-dd hh:MM:ss";

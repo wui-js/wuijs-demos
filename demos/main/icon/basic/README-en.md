@@ -10,7 +10,7 @@ This demo shows the use of WUIIcon's basic implementation.
 
 ## WUI/JS Stack
 
-- WUIIcon - 0.13
+- WUIIcon - 0.14
 
 ## Documentation
 
@@ -72,9 +72,9 @@ nav button {
 HTML head:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.css">
-<script type="text/javascript" src="/libraries/wui-js/main/icon/wui-icon-0.13.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.css">
+<script type="text/javascript" src="/libraries/wui-js/main/icon/wui-icon-0.14.js"></script>
 ```
 
 HTML code:

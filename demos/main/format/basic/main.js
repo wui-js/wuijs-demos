@@ -147,7 +147,7 @@ const stringNIDValidation = () => {
 
 const dateInitDefaults = () => {
 	//Date.prototype.wuiDefaults.utc = false;
-	//Date.prototype.wuiDefaults.locales = "en-US";
+	//Date.prototype.wuiDefaults.locale = "en-US";
 	//Date.prototype.wuiDefaults.dateFormat = "yyyy-mm-dd";
 	//Date.prototype.wuiDefaults.timeFormat = "hh:MM:ss";
 	//Date.prototype.wuiDefaults.datetimeFormat = "yyyy-mm-dd hh:MM:ss";

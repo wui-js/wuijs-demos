@@ -10,8 +10,8 @@ This demo shows the use of WUIButton's basic functionality.
 
 ## WUI/JS Stack
 
-- WUIIcon - 0.13
-- WUIButton - 0.15
+- WUIIcon - 0.14
+- WUIButton - 0.16
 
 ## Documentation
 
@@ -58,11 +58,11 @@ nav {
 HTML head:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/button/wui-button-0.15.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/button/wui-button-0.15.css">
-<script type="text/javascript" src="/libraries/wui-js/main/button/wui-button-0.15.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/button/wui-button-0.16.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/button/wui-button-0.16.css">
+<script type="text/javascript" src="/libraries/wui-js/main/button/wui-button-0.16.js"></script>
 ```
 
 HTML code:

@@ -64,7 +64,7 @@ Cabecera HTML:
 ```html
 <link type="text/css" rel="stylesheet" href="./libraries/wui-js/main/switch/wui-switch-0.10.css">
 <link type="text/css" rel="stylesheet" href="./libraries/wui-js/plugins/themes/wuiplugin-themes-0.12.css">
-<link type="text/css" rel="stylesheet" href="./libraries/wui-js/plugins/themes/default/settings-0.13.css">
+<link type="text/css" rel="stylesheet" href="./libraries/wui-js/plugins/themes/default/settings-0.15.css">
 <link type="text/css" rel="stylesheet" href="./wui.css">
 <script type="text/javascript" src="./libraries/wui-js/main/switch/wui-switch-0.10.js"></script>
 <script type="text/javascript" src="./libraries/wui-js/plugins/themes/wuiplugin-themes-0.12.js"></script>

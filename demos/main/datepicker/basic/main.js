@@ -2,7 +2,7 @@ const init = () => {
 	const output = document.body.querySelector(".output");
 	const datepicker = new WUIDatepicker({
 		selector: ".wui-datepicker.my-datepicker",
-		//locales: "en-US",
+		//locale: "en-US",
 		value: "2026-01-01",
 		//min: "",
 		//max: "",

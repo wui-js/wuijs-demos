@@ -10,8 +10,8 @@ Esta demostración muestra el uso de las funciones básicas de WUIModal.
 
 ## Stack WUI/JS
 
-- WUIIcon - 0.13
-- WUIModal - 0.12
+- WUIIcon - 0.14
+- WUIModal - 0.13
 
 ## Documentación
 
@@ -72,11 +72,11 @@ nav > button {
 Cabecera HTML:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.13.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/modal/wui-modal-0.12.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/modal/wui-modal-0.12.css">
-<script type="text/javascript" src="/libraries/wui-js/main/modal/wui-modal-0.12.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/modal/wui-modal-0.13.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/modal/wui-modal-0.13.css">
+<script type="text/javascript" src="/libraries/wui-js/main/modal/wui-modal-0.13.js"></script>
 ```
 
 Código HTML:
@@ -111,7 +111,11 @@ const init = () => {
 	const output = document.body.querySelector(".output");
 	const modal = new WUIModal({
 		selector: ".wui-modal.my-modal",
-		//openDelay: 200,
+		//mode: "page",
+		//slidePosition: "right",
+		//overlay: true,
+		//priority: false,
+		//transitionDelay: 300,
 		onStartOpen: () => {
 			output.textContent = "Abriendo modal";
 		},

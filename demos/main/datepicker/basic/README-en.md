@@ -10,8 +10,8 @@ This demo shows the use of WUIDatepicker's basic functionality.
 
 ## WUI/JS Stack
 
-- WUIIcon - 0.13
-- WUIDatepicker - 0.13
+- WUIIcon - 0.14
+- WUIDatepicker - 0.14
 
 ## Documentation
 
@@ -63,9 +63,9 @@ nav {
 HTML head:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/datepicker/wui-datepicker-0.13.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/datepicker/wui-datepicker-0.13.css">
-<script type="text/javascript" src="/libraries/wui-js/main/datepicker/wui-datepicker-0.13.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/datepicker/wui-datepicker-0.14.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/datepicker/wui-datepicker-0.14.css">
+<script type="text/javascript" src="/libraries/wui-js/main/datepicker/wui-datepicker-0.14.js"></script>
 ```
 
 HTML code:
@@ -86,7 +86,7 @@ const init = () => {
 	const output = document.body.querySelector(".output");
 	const datepicker = new WUIDatepicker({
 		selector: ".wui-datepicker.my-datepicker",
-		//locales: "en-US",
+		//locale: "en-US",
 		value: "2026-01-01",
 		//min: "",
 		//max: "",

@@ -3,7 +3,11 @@ const init = () => {
 	const output = document.body.querySelector(".output");
 	const modal = new WUIModal({
 		selector: ".wui-modal.my-modal",
-		//openDelay: 200,
+		//mode: "page",
+		//slidePosition: "right",
+		//overlay: true,
+		//priority: false,
+		//transitionDelay: 300,
 		onStartOpen: () => {
 			output.textContent = "Opening modal";
 		},

@@ -10,7 +10,7 @@ This demo shows the use of WUISlider's basic functionality.
 
 ## WUI/JS Stack
 
-- WUISlider - 0.9
+- WUISlider - 0.10
 
 ## Documentation
 
@@ -74,15 +74,6 @@ nav {
 	gap: 10px;
 }
 
-nav > button {
-	height: 24px;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
-	border: 1px solid #ccc;
-	background-color: transparent;
-}
-
 .output {
 	width: 100%;
 	height: 40px;
@@ -94,15 +85,15 @@ nav > button {
 HTML Header:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/slider/wui-slider-0.9.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/slider/wui-slider-0.9.css">
-<script type="text/javascript" src="/libraries/wui-js/main/slider/wui-slider-0.9.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/slider/wui-slider-0.10.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/slider/wui-slider-0.10.css">
+<script type="text/javascript" src="/libraries/wui-js/main/slider/wui-slider-0.10.js"></script>
 ```
 
 HTML Code:
 
 ```html
-<div class="wui-slider">
+<div class="wui-slider my-slider">
 	<div class="body">
 		<div class="slide slide1">Slide 1</div>
 		<div class="slide slide2">Slide 2</div>
@@ -111,8 +102,8 @@ HTML Code:
 	<div class="paging dots"></div>
 </div>
 <nav>
-	<button class="prev">&#9204; prev</button>
-	<button class="next">next &#9205;</button>
+	<button class="my-button prev">&#9204; prev</button>
+	<button class="my-button next">next &#9205;</button>
 </nav>
 <div class="output"></div>
 ```
@@ -126,6 +117,7 @@ const init = () => {
 	const output = document.body.querySelector(".output");
 	const slider = new WUISlider({
 		selector: ".wui-slider.my-slider",
+		transitionDelay: 300,
 		onChange: (index) => {
 			output.textContent = `Change to: ${index}`;
 		}
