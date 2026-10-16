@@ -18,7 +18,7 @@ This demo shows the use of WUIPluginThemes's custom predefined themes.
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
 - [WUISwitch](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/switch/wui-switch-en.md): `WUISwitch` component documentation.
 - [WUI/JS Plugins Lib](https://github.com/wui-js/wuijs-plugins-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUIPluginThemes](https://github.com/wui-js/wuijs-plugins-lib/blob/main/docs/README-en.md#wuiplugin-bodytheme): `WUIPluginThemes` component documentation.
+- [WUIPluginBodyTheme](https://github.com/wui-js/wuijs-plugins-lib/blob/main/docs/classes/bodytheme/wuiplugin-bodytheme-en.md): `WUIPluginBodyTheme` component documentation.
 
 ## Source
 
