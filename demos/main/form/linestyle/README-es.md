@@ -11,13 +11,13 @@ Esta demostración muestra el uso de WUIForm con estilo línea e inputs HTML nat
 ## Stack WUI/JS
 
 - WUIIcon - 0.14
-- WUIForm - 0.14
+- WUIForm - 0.15
 
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-icon): Documentación del componente `WUIIcon`.
-- [WUIForm](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-form): Documentación del componente `WUIForm`.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/icon/wui-icon-es.md): Documentación del componente `WUIIcon`.
+- [WUIForm](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/form/wui-form-es.md): Documentación del componente `WUIForm`.
 
 ## Fuentes
 
@@ -49,16 +49,16 @@ Cabecera HTML:
 ```html
 <link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.root.css">
 <link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.14.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.14.css">
-<script type="text/javascript" src="/libraries/wui-js/main/form/wui-form-0.14.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.15.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.15.css">
+<script type="text/javascript" src="/libraries/wui-js/main/form/wui-form-0.15.js"></script>
 ```
 
 Código HTML:
 
 ```html
 <nav>
-	<form name="myForm" class="wui-form my-form line">
+	<form name="myForm" class="wui-form my-form">
 		<input type="hidden" name="myHidden">
 		<div class="header">Cabecera</div>
 		<div class="body scroll">
@@ -136,6 +136,7 @@ Código JS:
 const init = () => {
 	const form = new WUIForm({
 		selector: ".wui-form.my-form",
+		fieldStyle: "line",
 		submit: false,
 		onScrolling: (top) => { },
 		onSubmit: () => { }

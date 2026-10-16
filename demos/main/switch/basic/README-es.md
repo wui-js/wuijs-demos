@@ -15,7 +15,7 @@ Esta demostración muestra el uso de las funciones básicas de WUISwitch.
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUISwitch](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-switch): Documentación del componente `WUISwitch`.
+- [WUISwitch](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/switch/wui-switch-es.md): Documentación del componente `WUISwitch`.
 
 ## Fuentes
 

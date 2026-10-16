@@ -15,7 +15,7 @@ Esta demostración muestra el uso de las funciones básicas de WUIPaging.
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUIPaging](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-paging): Documentación del componente `WUIPaging`.
+- [WUIPaging](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/paging/wui-paging-es.md): Documentación del componente `WUIPaging`.
 
 ## Fuentes
 

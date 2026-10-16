@@ -16,7 +16,7 @@ Carga la opciones del selector mediante lectura de los elementos `<option>` del 
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUISelectpicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md#wui-selectpicker): Documentación del componente `WUISelectpicker`.
+- [WUISelectpicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/selectpicker/wui-selectpicker-es.md): Documentación del componente `WUISelectpicker`.
 
 ## Fuentes
 
@@ -62,9 +62,9 @@ nav {
 Cabecera HTML:
 
 ```html
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.11.root.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.11.css">
-<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.11.js"></script>
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.root.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.css">
+<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.js"></script>
 ```
 
 Código HTML:

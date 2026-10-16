@@ -16,8 +16,8 @@ This demo shows the use of WUIButton's basic functionality.
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-icon): `WUIIcon` component documentation.
-- [WUIButton](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-button): `WUIButton` component documentation.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/icon/wui-icon-en.md): `WUIIcon` component documentation.
+- [WUIButton](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/button/wui-button-en.md): `WUIButton` component documentation.
 
 ## Source
 

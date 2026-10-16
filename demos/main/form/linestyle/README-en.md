@@ -11,13 +11,13 @@ This demo shows the use of WUIForm with line style and native HTML inputs.
 ## WUI/JS Stack
 
 - WUIIcon - 0.14
-- WUIForm - 0.14
+- WUIForm - 0.15
 
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-icon): `WUIIcon` component documentation.
-- [WUIForm](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-form): `WUIForm` component documentation.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/icon/wui-icon-en.md): `WUIIcon` component documentation.
+- [WUIForm](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/form/wui-form-en.md): `WUIForm` component documentation.
 
 ## Source
 
@@ -55,16 +55,16 @@ HTML Head:
 ```html
 <link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.root.css">
 <link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.14.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.14.css">
-<script type="text/javascript" src="/libraries/wui-js/main/form/wui-form-0.14.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.15.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.15.css">
+<script type="text/javascript" src="/libraries/wui-js/main/form/wui-form-0.15.js"></script>
 ```
 
 HTML code:
 
 ```html
 <nav>
-	<form name="myForm" class="wui-form my-form line">
+	<form name="myForm" class="wui-form my-form">
 		<input type="hidden" name="myHidden">
 		<div class="header">Header</div>
 		<div class="body scroll">
@@ -142,6 +142,7 @@ JS Code:
 const init = () => {
 	const form = new WUIForm({
 		selector: ".wui-form.my-form",
+		fieldStyle: "line",
 		submit: false,
 		onScrolling: (top) => { },
 		onSubmit: () => { }

@@ -16,8 +16,8 @@ Esta demostración muestra el uso de las funciones básicas de WUIDatepicker.
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-icon): Documentación del componente `WUIIcon`.
-- [WUIDatepicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-datepicker): Documentación del componente `WUIDatepicker`.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/icon/wui-icon-es.md): Documentación del componente `WUIIcon`.
+- [WUIDatepicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/datepicker/wui-datepicker-es.md): Documentación del componente `WUIDatepicker`.
 
 ## Fuentes
 

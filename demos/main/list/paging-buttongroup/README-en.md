@@ -13,13 +13,13 @@ List data is loaded directly in component creation.
 ## WUI/JS Stack
 
 - WUIIcon - 0.14
-- WUIList - 0.11
+- WUIList - 0.12
 
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-icon): `WUIIcon` component documentation.
-- [WUIList](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-list): `WUIList` component documentation.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/icon/wui-icon-en.md): `WUIIcon` component documentation.
+- [WUIList](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/list/wui-list-en.md): `WUIList` component documentation.
 
 ## Source
 
@@ -94,9 +94,9 @@ HTML head:
 ```html
 <link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.root.css">
 <link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/list/wui-list-0.11.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/list/wui-list-0.11.css">
-<script type="text/javascript" src="/libraries/wui-js/main/list/wui-list-0.11.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/list/wui-list-0.12.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/list/wui-list-0.12.css">
+<script type="text/javascript" src="/libraries/wui-js/main/list/wui-list-0.12.js"></script>
 ```
 
 HTML code:

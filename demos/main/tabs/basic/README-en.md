@@ -16,8 +16,8 @@ This demo shows the use of WUITabs's basic functionality.
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-icon): `WUIIcon` component documentation.
-- [WUITabs](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-tabs): `WUITabs` component documentation.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/icon/wui-icon-en.md): `WUIIcon` component documentation.
+- [WUITabs](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/tabs/wui-tabs-en.md): `WUITabs` component documentation.
 
 ## Source
 

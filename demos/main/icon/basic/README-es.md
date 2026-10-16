@@ -15,7 +15,7 @@ Esta demostración muestra el uso básico de WUIIcon.
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-icon): Documentación del conjunto de íconos `WUIIcon`.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/icon/wui-icon-es.md): Documentación del conjunto de íconos `WUIIcon`.
 
 ## Fuentes
 

@@ -15,7 +15,7 @@ Esta demostración muestra el uso de las funciones básicas de WUIColorpicker.
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUIColorpicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-colorpicker): Documentación del componente `WUIColorpicker`.
+- [WUIColorpicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/colorpicker/wui-colorpicker-es.md): Documentación del componente `WUIColorpicker`.
 
 ## Fuentes
 

@@ -15,7 +15,7 @@ Esta demostración muestra el uso de las funciones básicas de WUIScrolly.
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUIScrolly](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-scrolly): Documentación del componente `WUIScrolly`.
+- [WUIScrolly](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/scrolly/wui-scrolly-es.md): Documentación del componente `WUIScrolly`.
 
 ## Fuentes
 

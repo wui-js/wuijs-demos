@@ -15,7 +15,7 @@ This demo shows the use of WUIFade's basic functionality.
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUIFade](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-fade): `WUIFade` utilities documentation.
+- [WUIFade](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/fade/wui-fade-en.md): `WUIFade` utilities documentation.
 
 ## Source
 

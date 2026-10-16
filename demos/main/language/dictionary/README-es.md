@@ -10,12 +10,12 @@ Este demo muestra el uso de los diccionarios de términos de WUILanguage mediant
 
 ## Stack WUI/JS
 
-- WUILanguage - 0.8
+- WUILanguage - 0.9
 
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación global.
-- [WUILanguage](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-language): Documentación del componente `WUILanguage`.
+- [WUILanguage](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/language/wui-language-es.md): Documentación del componente `WUILanguage`.
 
 ## Fuentes
 
@@ -97,7 +97,7 @@ nav select {
 Cabecera HTML:
 
 ```html
-<script type="text/javascript" src="/libraries/wui-js/main/language/wui-language-0.8.js"></script>
+<script type="text/javascript" src="/libraries/wui-js/main/language/wui-language-0.9.js"></script>
 ```
 
 Código HTML:

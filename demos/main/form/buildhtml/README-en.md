@@ -19,7 +19,7 @@ as with a hand-written form.
 ## WUI/JS Stack
 
 - WUIIcon - 0.14
-- WUIForm - 0.14
+- WUIForm - 0.15
 - WUISelectpicker - 0.15
 - WUIDatepicker - 0.14
 - WUISwitch - 0.10
@@ -28,11 +28,11 @@ as with a hand-written form.
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): General documentation.
-- [WUIForm](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-form): `WUIForm` component documentation, including `bodyItems`, `footerItems` and `buildHtml()`.
-- [WUISelectpicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-selectpicker): `WUISelectpicker` component documentation.
-- [WUIDatepicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-datepicker): `WUIDatepicker` component documentation.
-- [WUISwitch](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-switch): `WUISwitch` component documentation.
-- [WUIButton](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-button): `WUIButton` component documentation.
+- [WUIForm](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/form/wui-form-en.md): `WUIForm` component documentation, including `bodyItems`, `footerItems` and `buildHtml()`.
+- [WUISelectpicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/selectpicker/wui-selectpicker-en.md): `WUISelectpicker` component documentation.
+- [WUIDatepicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/datepicker/wui-datepicker-en.md): `WUIDatepicker` component documentation.
+- [WUISwitch](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/switch/wui-switch-en.md): `WUISwitch` component documentation.
+- [WUIButton](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/button/wui-button-en.md): `WUIButton` component documentation.
 
 ## Sources
 
@@ -63,8 +63,8 @@ HTML head:
 ```html
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/icon/wui-icon-0.14.root.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/icon/wui-icon-0.14.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.14.root.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.14.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.15.root.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.15.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.root.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/datepicker/wui-datepicker-0.14.root.css">
@@ -73,7 +73,7 @@ HTML head:
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/switch/wui-switch-0.10.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/button/wui-button-0.16.root.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/button/wui-button-0.16.css">
-<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.14.js"></script>
+<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.15.js"></script>
 <script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.js"></script>
 <script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/datepicker/wui-datepicker-0.14.js"></script>
 <script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/switch/wui-switch-0.10.js"></script>
@@ -84,7 +84,7 @@ HTML code:
 
 ```html
 <nav>
-	<form name="myForm" class="wui-form my-form fill">
+	<form name="myForm" class="wui-form my-form">
 		<div class="header">New user</div>
 	</form>
 	<div class="output"></div>

@@ -16,8 +16,8 @@ This demo shows the use of WUIModal's basic functionality.
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-icon): `WUIIcon` component documentation.
-- [WUIModal](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-modal): `WUIModal` component documentation.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/icon/wui-icon-en.md): `WUIIcon` component documentation.
+- [WUIModal](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/modal/wui-modal-en.md): `WUIModal` component documentation.
 
 ## Source
 

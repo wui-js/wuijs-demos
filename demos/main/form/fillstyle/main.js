@@ -1,6 +1,7 @@
 const init = () => {
 	const form = new WUIForm({
 		selector: ".wui-form.my-form",
+		fieldStyle: "fill",
 		submit: false,
 		onScrolling: (top) => { },
 		onSubmit: () => { }

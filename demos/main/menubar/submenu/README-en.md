@@ -16,8 +16,8 @@ This demo shows the use of WUIMenubar's submenu functionality.
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-icon): `WUIIcon` component documentation.
-- [WUIMenubar](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-menubar): `WUIMenubar` component documentation.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/icon/wui-icon-en.md): `WUIIcon` component documentation.
+- [WUIMenubar](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/menubar/wui-menubar-en.md): `WUIMenubar` component documentation.
 
 ## Source
 

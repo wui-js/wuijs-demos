@@ -15,7 +15,7 @@ This demo shows the use of WUITimepicker's basic functionality.
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUITimepicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-timepicker): `WUITimepicker` component documentation.
+- [WUITimepicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/timepicker/wui-timepicker-en.md): `WUITimepicker` component documentation.
 
 ## Source
 

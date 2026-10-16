@@ -15,7 +15,7 @@ Esta demostración muestra el uso de WUIFormat para formateo de números, cadena
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUIFormat](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-format): Documentación del utilidades `WUIFormat`.
+- [WUIFormat](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/format/wui-format-es.md): Documentación del utilidades `WUIFormat`.
 
 ## Fuentes
 

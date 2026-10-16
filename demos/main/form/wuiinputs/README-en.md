@@ -11,11 +11,11 @@ This demo shows the use of WUIForm with fill style and WUI inputs components.
 ## WUI/JS Stack
 
 - WUIIcon - 0.14
-- WUIForm - 0.14
+- WUIForm - 0.15
 - WUISelectpicker - 0.15
 - WUIDatepicker - 0.14
 - WUITimepicker - 0.13
-- WUIColorpicker - 0.10
+- WUIColorpicker - 0.14
 - WUISwitch - 0.10
 - WUIIntensity - 0.7
 - WUIButton - 0.16
@@ -23,15 +23,15 @@ This demo shows the use of WUIForm with fill style and WUI inputs components.
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-icon): `WUIIcon` component documentation.
-- [WUIForm](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-form): `WUIForm` component documentation.
-- [WUISelectpicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-selectpicker): `WUISelectpicker` component documentation.
-- [WUIDatepicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-datepicker): `WUIDatepicker` component documentation.
-- [WUITimepicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-timepicker): `WUITimepicker` component documentation.
-- [WUIColorpicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-colorpicker): `WUIColorpicker` component documentation.
-- [WUISwitch](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-switch): `WUISwitch` component documentation.
-- [WUIIntensity](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-intensity): `WUIIntensity` component documentation.
-- [WUIButton](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-button): `WUIButton` component documentation.
+- [WUIIcon](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/icon/wui-icon-en.md): `WUIIcon` component documentation.
+- [WUIForm](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/form/wui-form-en.md): `WUIForm` component documentation.
+- [WUISelectpicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/selectpicker/wui-selectpicker-en.md): `WUISelectpicker` component documentation.
+- [WUIDatepicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/datepicker/wui-datepicker-en.md): `WUIDatepicker` component documentation.
+- [WUITimepicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/timepicker/wui-timepicker-en.md): `WUITimepicker` component documentation.
+- [WUIColorpicker](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/colorpicker/wui-colorpicker-en.md): `WUIColorpicker` component documentation.
+- [WUISwitch](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/switch/wui-switch-en.md): `WUISwitch` component documentation.
+- [WUIIntensity](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/intensity/wui-intensity-en.md): `WUIIntensity` component documentation.
+- [WUIButton](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/button/wui-button-en.md): `WUIButton` component documentation.
 
 ## Source
 
@@ -69,37 +69,37 @@ HTML Head:
 ```html
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/icon/wui-icon-0.14.root.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/icon/wui-icon-0.14.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.14.root.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.14.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.10.root.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.10.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.15.root.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.15.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.root.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/datepicker/wui-datepicker-0.14.root.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/datepicker/wui-datepicker-0.14.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/timepicker/wui-timepicker-0.13.root.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/timepicker/wui-timepicker-0.13.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/colorpicker/wui-colorpicker-0.10.root.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/colorpicker/wui-colorpicker-0.10.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/colorpicker/wui-colorpicker-0.14.root.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/colorpicker/wui-colorpicker-0.14.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/switch/wui-switch-0.10.root.css">
 <link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/switch/wui-switch-0.10.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/intensity/wui-intensity-0.4.root.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/intensity/wui-intensity-0.4.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/button/wui-button-0.9.root.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/button/wui-button-0.9.css">
-<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.14.js"></script>
-<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.10.js"></script>
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/intensity/wui-intensity-0.7.root.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/intensity/wui-intensity-0.7.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/button/wui-button-0.16.root.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/button/wui-button-0.16.css">
+<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/form/wui-form-0.15.js"></script>
+<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.js"></script>
 <script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/datepicker/wui-datepicker-0.14.js"></script>
 <script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/timepicker/wui-timepicker-0.13.js"></script>
-<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/colorpicker/wui-colorpicker-0.10.js"></script>
+<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/colorpicker/wui-colorpicker-0.14.js"></script>
 <script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/switch/wui-switch-0.10.js"></script>
-<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/intensity/wui-intensity-0.4.js"></script>
-<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/button/wui-button-0.9.js"></script>
+<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/intensity/wui-intensity-0.7.js"></script>
+<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/button/wui-button-0.16.js"></script>
 ```
 
 HTML code:
 
 ```html
 <nav>
-	<form name="myForm" class="wui-form my-form fill">
+	<form name="myForm" class="wui-form my-form">
 		<input type="hidden" name="myHidden">
 		<div class="header">Header</div>
 		<div class="body scroll">

@@ -15,7 +15,7 @@ This demo shows the use of WUITooltip's basic functionality.
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUITooltip](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-tooltip): `WUITooltip` component documentation.
+- [WUITooltip](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/tooltip/wui-tooltip-en.md): `WUITooltip` component documentation.
 
 ## Source
 

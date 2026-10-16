@@ -15,7 +15,7 @@ This demo shows the use of WUIBody's import functionality.
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUIBody](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-body): `WUIBody` component documentation.
+- [WUIBody](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/body/wui-body-en.md): `WUIBody` component documentation.
 
 ## Source
 

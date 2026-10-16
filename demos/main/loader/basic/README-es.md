@@ -15,7 +15,7 @@ Esta demostración muestra el uso de las funciones básicas de WUILoader.
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUILoader](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-loader): Documentación del componente `WUILoader`.
+- [WUILoader](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/loader/wui-loader-es.md): Documentación del componente `WUILoader`.
 
 ## Fuentes
 

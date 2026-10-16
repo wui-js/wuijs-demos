@@ -15,7 +15,7 @@ Esta demostración muestra el uso de las funciones básicas de WUISlider.
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación general.
-- [WUISlider](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md#wui-slider): Documentación del componente `WUISlider`.
+- [WUISlider](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/slider/wui-slider-es.md): Documentación del componente `WUISlider`.
 
 ## Fuentes
 

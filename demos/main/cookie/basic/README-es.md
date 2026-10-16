@@ -15,7 +15,7 @@ Este demo muestra el uso de la funcionalidad básica de WUICookie.
 ## Documentación
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-es.md): Documentación global.
-- [WUICookie](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-cookie): Documentación del componente `WUICookie`.
+- [WUICookie](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/cookie/wui-cookie-es.md): Documentación del componente `WUICookie`.
 
 ## Fuentes
 

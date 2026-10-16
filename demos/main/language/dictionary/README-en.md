@@ -10,12 +10,12 @@ This demo shows the use of the WUILanguage term dictionaries through the `fixedD
 
 ## WUI/JS Stack
 
-- WUILanguage - 0.8
+- WUILanguage - 0.9
 
 ## Documentation
 
 - [WUI/JS Main Lib](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md): Global documentation.
-- [WUILanguage](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/README-en.md#wui-language): `WUILanguage` component documentation.
+- [WUILanguage](https://github.com/wui-js/wuijs-main-lib/blob/main/docs/classes/language/wui-language-en.md): `WUILanguage` component documentation.
 
 ## Sources
 
@@ -97,7 +97,7 @@ nav select {
 HTML header:
 
 ```html
-<script type="text/javascript" src="/libraries/wui-js/main/language/wui-language-0.8.js"></script>
+<script type="text/javascript" src="/libraries/wui-js/main/language/wui-language-0.9.js"></script>
 ```
 
 HTML code:
