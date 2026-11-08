@@ -1,0 +1,14 @@
+/*
+@file wui-tooltip-0.7.root.css
+@class WUITooltip
+@version 0.7
+@author Sergio E. Belmar V. (wuijs.project@gmail.com)
+@copyright Sergio E. Belmar V. (wuijs.project@gmail.com)
+*/
+
+:root {
+	--wui-tooltip-open-delay: .2s;
+	--wui-tooltip-bgcolor: #1f2429;
+	--wui-tooltip-textcolor: #fff;
+	--wui-tooltip-textsize: 12px;
+}

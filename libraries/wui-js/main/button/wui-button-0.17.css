@@ -1,0 +1,401 @@
+/*
+@file wui-button-0.17.css
+@class WUIButton
+@version 0.17
+@author Sergio E. Belmar V. (wuijs.project@gmail.com)
+@copyright Sergio E. Belmar V. (wuijs.project@gmail.com)
+*/
+
+button.wui-button,
+button.wui-button * {
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+button.wui-button {
+	--button-transition: border-color .2s, background-color .2s, color .2s;
+	position: relative;
+	display: flex;
+	min-width: var(--wui-button-default-minwidth);
+	height: var(--wui-button-default-height);
+	box-shadow: var(--wui-button-default-shadow);
+	outline: none;
+	border-width: var(--wui-button-default-borderwidth);
+	border-style: solid;
+	border-radius: var(--wui-button-default-borderradius);
+	padding-top: var(--wui-button-default-verticalpadding);
+	padding-left: clamp(min(7px, var(--wui-button-default-horizontalpadding)), 2.5vw, var(--wui-button-default-horizontalpadding));
+	padding-right: clamp(min(7px, var(--wui-button-default-horizontalpadding)), 2.5vw, var(--wui-button-default-horizontalpadding));
+	padding-bottom: var(--wui-button-default-verticalpadding);
+	cursor: pointer;
+	transition: var(--button-transition);
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	white-space: nowrap;
+	font-weight: inherit;
+	font-size: var(--wui-button-default-textsize);
+}
+
+button.wui-button.hidden {
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+	button.wui-button {
+		min-width: var(--wui-button-mobile-default-minwidth);
+		height: var(--wui-button-mobile-default-height);
+		font-size: var(--wui-button-mobile-default-textsize);
+	}
+}
+
+/* wui-button default */
+
+button.wui-button:not(.selected):enabled {
+	border-color: var(--wui-button-default-bordercolor-out);
+	background-color: var(--wui-button-default-bgcolor-out);
+	color: var(--wui-button-default-textcolor-out);
+}
+
+button.wui-button:not(.selected):enabled:is(:hover, :focus, :focus-within) {
+	border-color: var(--wui-button-default-bordercolor-over);
+	background-color: var(--wui-button-default-bgcolor-over);
+	color: var(--wui-button-default-textcolor-over);
+}
+
+button.wui-button.selected {
+	border-color: var(--wui-button-default-bordercolor-selected);
+	background-color: var(--wui-button-default-bgcolor-selected);
+	color: var(--wui-button-default-textcolor-selected);
+}
+
+button.wui-button:disabled {
+	box-shadow: none;
+	border-color: var(--wui-button-default-bordercolor-disabled);
+	background-color: var(--wui-button-default-bgcolor-disabled);
+	color: var(--wui-button-default-textcolor-disabled);
+}
+
+/* wui-button submit */
+
+button.wui-button.submit {
+	min-width: var(--wui-button-submit-minwidth);
+	height: var(--wui-button-submit-height);
+	font-size: var(--wui-button-submit-textsize);
+}
+
+button.wui-button.submit:not(.selected):enabled {
+	border-color: var(--wui-button-submit-bordercolor-out);
+	background-color: var(--wui-button-submit-bgcolor-out);
+	color: var(--wui-button-submit-textcolor-out);
+}
+
+button.wui-button.submit:not(.selected):enabled:is(:hover, :focus, :focus-within) {
+	border-color: var(--wui-button-submit-bordercolor-over);
+	background-color: var(--wui-button-submit-bgcolor-over);
+	color: var(--wui-button-submit-textcolor-over);
+}
+
+button.wui-button.submit.selected {
+	border-color: var(--wui-button-submit-bordercolor-selected);
+	background-color: var(--wui-button-submit-bgcolor-selected);
+	color: var(--wui-button-submit-textcolor-selected);
+}
+
+button.wui-button.submit:disabled {
+	border-color: var(--wui-button-submit-bordercolor-disabled);
+	background-color: var(--wui-button-submit-bgcolor-disabled);
+	color: var(--wui-button-submit-textcolor-disabled);
+}
+
+@media screen and (max-width: 767px) {
+
+	button.wui-button.submit {
+		min-width: var(--wui-button-mobile-submit-minwidth);
+		height: var(--wui-button-mobile-submit-height);
+		font-size: var(--wui-button-mobile-submit-textsize);
+	}
+}
+
+/* wui-button danger */
+
+button.wui-button.danger:not(.selected):enabled {
+	border-color: var(--wui-button-danger-bordercolor-out);
+	background-color: var(--wui-button-danger-bgcolor-out);
+	color: var(--wui-button-danger-textcolor-out);
+}
+
+button.wui-button.danger:not(.selected):enabled:is(:hover, :focus, :focus-within) {
+	border-color: var(--wui-button-danger-bordercolor-over);
+	background-color: var(--wui-button-danger-bgcolor-over);
+	color: var(--wui-button-danger-textcolor-over);
+}
+
+button.wui-button.danger.selected {
+	border-color: var(--wui-button-danger-bordercolor-selected);
+	background-color: var(--wui-button-danger-bgcolor-selected);
+	color: var(--wui-button-danger-textcolor-selected);
+}
+
+button.wui-button.danger:disabled {
+	border-color: var(--wui-button-danger-bordercolor-disabled);
+	background-color: var(--wui-button-danger-bgcolor-disabled);
+	color: var(--wui-button-danger-textcolor-disabled);
+}
+
+/* wui-button outlined */
+
+button.wui-button.outlined:not(.selected):enabled {
+	border-color: var(--wui-button-default-bordercolor-selected);
+	background-color: transparent;
+	color: var(--wui-button-default-bordercolor-selected);
+}
+
+button.wui-button.outlined:not(.selected):enabled:is(:hover, :focus, :focus-within) {
+	border-color: var(--wui-button-default-bordercolor-selected);
+	background-color: rgb(from var(--wui-button-default-bordercolor-selected) r g b / 10%);
+	color: var(--wui-button-default-bordercolor-selected);
+}
+
+button.wui-button.outlined:disabled {
+	border-color: var(--wui-button-default-bordercolor-disabled);
+	background-color: transparent;
+	color: var(--wui-button-default-textcolor-disabled);
+}
+
+button.wui-button.submit.outlined:not(.selected):enabled {
+	border-color: var(--wui-button-submit-bordercolor-selected);
+	background-color: transparent;
+	color: var(--wui-button-submit-bordercolor-selected);
+}
+
+button.wui-button.submit.outlined:not(.selected):enabled:is(:hover, :focus, :focus-within) {
+	border-color: var(--wui-button-submit-bordercolor-selected);
+	background-color: rgb(from var(--wui-button-submit-bordercolor-selected) r g b / 10%);
+	color: var(--wui-button-submit-bordercolor-selected);
+}
+
+button.wui-button.submit.outlined:disabled {
+	border-color: var(--wui-button-submit-bordercolor-disabled);
+	background-color: transparent;
+	color: var(--wui-button-submit-textcolor-disabled);
+}
+
+button.wui-button.danger.outlined:not(.selected):enabled {
+	border-color: var(--wui-button-danger-bordercolor-selected);
+	background-color: transparent;
+	color: var(--wui-button-danger-bordercolor-selected);
+}
+
+button.wui-button.danger.outlined:not(.selected):enabled:is(:hover, :focus, :focus-within) {
+	border-color: var(--wui-button-danger-bordercolor-selected);
+	background-color: rgb(from var(--wui-button-danger-bordercolor-selected) r g b / 10%);
+	color: var(--wui-button-danger-bordercolor-selected);
+}
+
+button.wui-button.danger.outlined:disabled {
+	border-color: var(--wui-button-danger-bordercolor-disabled);
+	background-color: transparent;
+	color: var(--wui-button-danger-textcolor-disabled);
+}
+
+/* wui-button flat */
+
+button.wui-button.flat {
+	box-shadow: none;
+}
+
+/* wui-button join */
+
+button.wui-button.join::after {
+	content: "";
+	position: absolute;
+	top: var(--wui-button-join-separator-verticalmargin);
+	right: 0;
+	bottom: var(--wui-button-join-separator-verticalmargin);
+	width: 1px;
+	background-color: transparent;
+}
+
+:has(> button.wui-button.join:not(.hidden) ~ button.wui-button.join:not(.hidden)) {
+	flex-wrap: nowrap;
+	column-gap: 0;
+}
+
+button.wui-button.join:not(.hidden):is(:has(~ button.wui-button.join:not(.hidden)), button.wui-button.join:not(.hidden) ~ *):not(.submit, .danger, .selected):enabled:not(:is(:hover, :focus, :active)) {
+	border-color: var(--wui-button-join-bordercolor-out);
+	background-color: var(--wui-button-join-bgcolor-out);
+}
+
+button.wui-button.join:not(.hidden):is(:has(~ button.wui-button.join:not(.hidden)), button.wui-button.join:not(.hidden) ~ *):not(.submit, .danger, .selected):enabled:is(:hover, :focus, :active) {
+	background-color: var(--wui-button-join-bgcolor-over);
+}
+
+button.wui-button.join:not(.hidden):is(:has(~ button.wui-button.join:not(.hidden)), button.wui-button.join:not(.hidden) ~ *):not(.submit).selected {
+	background-color: var(--wui-button-join-bgcolor-selected);
+}
+
+button.wui-button.join:not(.hidden):is(:has(~ button.wui-button.join:not(.hidden)), button.wui-button.join:not(.hidden) ~ *):not(.submit):disabled {
+	background-color: var(--wui-button-join-bgcolor-disabled);
+}
+
+button.wui-button.join:not(.hidden):is(:has(~ button.wui-button.join:not(.hidden)), button.wui-button.join:not(.hidden) ~ *):disabled {
+	border-color: var(--wui-button-join-bordercolor-disabled);
+}
+
+button.wui-button.join:not(.hidden):is(:has(~ button.wui-button.join:not(.hidden)), button.wui-button.join:not(.hidden) ~ *).submit:not(.selected):enabled:not(:is(:hover, :focus, :active)) {
+	border-color: var(--wui-button-join-bordercolor-submit-out);
+}
+
+button.wui-button.join:not(.hidden):is(:has(~ button.wui-button.join:not(.hidden)), button.wui-button.join:not(.hidden) ~ *).danger:not(.selected):enabled:not(:is(:hover, :focus, :active)) {
+	border-color: var(--wui-button-join-bordercolor-danger-out);
+}
+
+button.wui-button.join:not(.hidden):is(:has(~ button.wui-button.join:not(.hidden)), button.wui-button.join:not(.hidden) ~ *).danger:not(.selected):enabled:is(:hover, :focus, :active) {
+	border-color: var(--wui-button-join-bordercolor-danger-over);
+}
+
+button.wui-button.join:not(.hidden):is(:has(~ button.wui-button.join:not(.hidden)), button.wui-button.join:not(.hidden) ~ *):is(.submit).outlined:not(.selected):enabled:not(:is(:hover, :focus, :active)) {
+	background-color: var(--wui-button-join-bgcolor-out);
+}
+
+button.wui-button.join:not(.hidden):has(~ button.wui-button.join:not(.hidden)) {
+	box-shadow: none;
+	border-right-width: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+button.wui-button.join:not(.hidden) ~ button.wui-button.join:not(.hidden) {
+	box-shadow: none;
+	border-left-width: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+button.wui-button.join:not(.hidden):has(~ button.wui-button.join:not(.hidden))::after {
+	background-color: var(--wui-button-join-separatorcolor-out);
+}
+
+button.wui-button.join:not(.hidden):not(:disabled):is(:hover, :focus, :active):has(~ button.wui-button.join:not(.hidden))::after,
+button.wui-button.join:not(.hidden):has(+ button.wui-button.join:not(.hidden):not(:disabled):is(:hover, :focus, :active))::after {
+	top: 0;
+	bottom: 0;
+	background-color: var(--wui-button-join-separatorcolor-over);
+}
+
+button.wui-button.join:not(.hidden).selected:has(~ button.wui-button.join:not(.hidden))::after,
+button.wui-button.join:not(.hidden):has(+ button.wui-button.join:not(.hidden).selected)::after {
+	top: 0;
+	bottom: 0;
+	background-color: var(--wui-button-join-separatorcolor-selected);
+}
+
+button.wui-button.join:not(.hidden):disabled:has(~ button.wui-button.join:not(.hidden))::after {
+	background-color: var(--wui-button-join-separatorcolor-disabled);
+}
+
+@media screen and (max-width: 767px) {
+
+	button.wui-button.join:not(.hidden):is(:has(~ button.wui-button.join:not(.hidden)), button.wui-button.join:not(.hidden) ~ *) {
+		min-width: 0;
+		flex-shrink: 1;
+	}
+}
+
+/* wui-icon */
+
+button.wui-button > .wui-icon {
+	width: 24px;
+	height: 24px;
+	opacity: 1;
+}
+
+button.wui-button:not(.selected):enabled > .wui-icon {
+	background-color: var(--wui-button-default-textcolor-out);
+}
+
+button.wui-button:not(.selected):enabled:is(:hover, :focus, :focus-within) > .wui-icon {
+	background-color: var(--wui-button-default-textcolor-over);
+}
+
+button.wui-button.selected > .wui-icon {
+	background-color: var(--wui-button-default-textcolor-selected);
+}
+
+button.wui-button:disabled > .wui-icon {
+	background-color: var(--wui-button-default-textcolor-disabled);
+}
+
+button.wui-button.submit:not(.selected):enabled > .wui-icon {
+	background-color: var(--wui-button-submit-textcolor-out);
+}
+
+button.wui-button.submit:not(.selected):enabled:is(:hover, :focus, :focus-within) > .wui-icon {
+	background-color: var(--wui-button-submit-textcolor-over);
+}
+
+button.wui-button.submit.selected > .wui-icon {
+	background-color: var(--wui-button-submit-textcolor-selected);
+}
+
+button.wui-button.submit:disabled > .wui-icon {
+	background-color: var(--wui-button-submit-textcolor-disabled);
+}
+
+button.wui-button.danger:not(.selected):enabled > .wui-icon {
+	background-color: var(--wui-button-danger-textcolor-out);
+}
+
+button.wui-button.danger:not(.selected):enabled:is(:hover, :focus, :focus-within) > .wui-icon {
+	background-color: var(--wui-button-danger-textcolor-over);
+}
+
+button.wui-button.danger.selected > .wui-icon {
+	background-color: var(--wui-button-danger-textcolor-selected);
+}
+
+button.wui-button.danger:disabled > .wui-icon {
+	background-color: var(--wui-button-danger-textcolor-disabled);
+}
+
+button.wui-button.outlined:not(.selected):enabled > .wui-icon {
+	background-color: var(--wui-button-default-bordercolor-selected);
+}
+
+button.wui-button.submit.outlined:not(.selected):enabled > .wui-icon {
+	background-color: var(--wui-button-submit-bordercolor-selected);
+}
+
+button.wui-button.danger.outlined:not(.selected):enabled > .wui-icon {
+	background-color: var(--wui-button-danger-bordercolor-selected);
+}
+
+button.wui-button > .wui-icon:is(.float-left, .float-right) {
+	position: absolute;
+}
+
+button.wui-button > .wui-icon.float-left {
+	left: var(--wui-button-icon-float-horizontalpadding);
+}
+
+button.wui-button > .wui-icon.float-right {
+	right: var(--wui-button-icon-float-horizontalpadding);
+}
+
+@media screen and (max-width: 767px) {
+
+	button.wui-button > .wui-icon:is(.float-left, .float-right).mobile-disabled {
+		position: static;
+	}
+
+	button.wui-button > .wui-icon.float-left:not(.mobile-disabled) {
+		left: var(--wui-button-mobile-icon-float-horizontalpadding);
+	}
+
+	button.wui-button > .wui-icon.float-right:not(.mobile-disabled) {
+		right: var(--wui-button-mobile-icon-float-horizontalpadding);
+	}
+}

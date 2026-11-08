@@ -1,0 +1,79 @@
+/*
+@file wui-button-0.17.root.css
+@class WUIButton
+@version 0.17
+@author Sergio E. Belmar V. (wuijs.project@gmail.com)
+@copyright Sergio E. Belmar V. (wuijs.project@gmail.com)
+*/
+
+:root {
+	--wui-button-default-shadow: rgba(50, 50, 93, .25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	--wui-button-default-minwidth: 200px;
+	--wui-button-default-height: 34px;
+	--wui-button-default-borderwidth: 1px;
+	--wui-button-default-borderradius: 9999px;
+	--wui-button-default-bordercolor-out: rgb(from #1e90ff r g b / 20%);
+	--wui-button-default-bordercolor-over: #1e90ff;
+	--wui-button-default-bordercolor-selected: #1e90ff;
+	--wui-button-default-bordercolor-disabled: rgb(from #2d3a47 r g b / 20%);
+	--wui-button-default-bgcolor-out: transparent;
+	--wui-button-default-bgcolor-over: transparent;
+	--wui-button-default-bgcolor-selected: #1e90ff;
+	--wui-button-default-bgcolor-disabled: transparent;
+	--wui-button-default-horizontalpadding: 20px;
+	--wui-button-default-verticalpadding: 0px;
+	--wui-button-default-textcolor-out: #1e90ff;
+	--wui-button-default-textcolor-over: #1e90ff;
+	--wui-button-default-textcolor-selected: #fff;
+	--wui-button-default-textcolor-disabled: rgb(from #2d3a47 r g b / 20%);
+	--wui-button-default-textsize: 15px;
+	--wui-button-submit-minwidth: 200px;
+	--wui-button-submit-height: 34px;
+	--wui-button-submit-bordercolor-out: rgb(from #1e90ff r g b / 20%);
+	--wui-button-submit-bordercolor-over: #1e90ff;
+	--wui-button-submit-bordercolor-selected: #1e90ff;
+	--wui-button-submit-bordercolor-disabled: rgb(from #2d3a47 r g b / 20%);
+	--wui-button-submit-bgcolor-out: #1e90ff;
+	--wui-button-submit-bgcolor-over: #1e90ff;
+	--wui-button-submit-bgcolor-selected: #1e90ff;
+	--wui-button-submit-bgcolor-disabled: rgb(from #b5bbc1 r g b / 20%);
+	--wui-button-submit-textcolor-out: #fff;
+	--wui-button-submit-textcolor-over: #fff;
+	--wui-button-submit-textcolor-selected: #fff;
+	--wui-button-submit-textcolor-disabled: rgb(from #2d3a47 r g b / 20%);
+	--wui-button-submit-textsize: 15px;
+	--wui-button-danger-bordercolor-out: rgb(from #ef4444 r g b / 25%);
+	--wui-button-danger-bordercolor-over: #ef4444;
+	--wui-button-danger-bordercolor-selected: #ef4444;
+	--wui-button-danger-bordercolor-disabled: rgb(from #2d3a47 r g b / 20%);
+	--wui-button-danger-bgcolor-out: #ef4444;
+	--wui-button-danger-bgcolor-over: #ef4444;
+	--wui-button-danger-bgcolor-selected: #ef4444;
+	--wui-button-danger-bgcolor-disabled: rgb(from #b5bbc1 r g b / 20%);
+	--wui-button-danger-textcolor-out: #fff;
+	--wui-button-danger-textcolor-over: #fff;
+	--wui-button-danger-textcolor-selected: #fff;
+	--wui-button-danger-textcolor-disabled: rgb(from #2d3a47 r g b / 20%);
+	--wui-button-join-bordercolor-out: rgb(from #1e90ff r g b / 20%);
+	--wui-button-join-bordercolor-disabled: rgb(from #2d3a47 r g b / 20%);
+	--wui-button-join-bordercolor-submit-out: rgb(from #1e90ff r g b / 20%);
+	--wui-button-join-bordercolor-danger-out: rgb(from #ef4444 r g b / 25%);
+	--wui-button-join-bordercolor-danger-over: #ef4444;
+	--wui-button-join-bgcolor-out: transparent;
+	--wui-button-join-bgcolor-over: transparent;
+	--wui-button-join-bgcolor-selected: #1e90ff;
+	--wui-button-join-bgcolor-disabled: transparent;
+	--wui-button-join-separatorcolor-out: rgb(from #1e90ff r g b / 20%);
+	--wui-button-join-separatorcolor-over: #1e90ff;
+	--wui-button-join-separatorcolor-selected: #1e90ff;
+	--wui-button-join-separatorcolor-disabled: rgb(from #2d3a47 r g b / 20%);
+	--wui-button-join-separator-verticalmargin: 5px;
+	--wui-button-icon-float-horizontalpadding: 5px;
+	--wui-button-mobile-default-minwidth: 180px;
+	--wui-button-mobile-default-height: 40px;
+	--wui-button-mobile-default-textsize: 17px;
+	--wui-button-mobile-submit-minwidth: 180px;
+	--wui-button-mobile-submit-height: 40px;
+	--wui-button-mobile-submit-textsize: 17px;
+	--wui-button-mobile-icon-float-horizontalpadding: 10px;
+}

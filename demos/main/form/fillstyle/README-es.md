@@ -10,8 +10,8 @@ Esta demostración muestra el uso de WUIForm con estilo relleno e inputs HTML na
 
 ## Stack WUI/JS
 
-- WUIIcon - 0.14
-- WUIForm - 0.15
+- WUIIcon - 0.15
+- WUIForm - 0.16
 
 ## Documentación
 
@@ -47,11 +47,11 @@ nav {
 Cabecera HTML:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.15.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.15.css">
-<script type="text/javascript" src="/libraries/wui-js/main/form/wui-form-0.15.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.15.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.15.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.16.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/form/wui-form-0.16.css">
+<script type="text/javascript" src="/libraries/wui-js/main/form/wui-form-0.16.js"></script>
 ```
 
 Código HTML:

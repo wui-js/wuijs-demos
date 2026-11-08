@@ -1,0 +1,201 @@
+/*
+@file wui-codebox-0.3.css
+@class WUICodebox
+@version 0.3
+@author Sergio E. Belmar V. (wuijs.project@gmail.com)
+@copyright Sergio E. Belmar V. (wuijs.project@gmail.com)
+*/
+
+button.wui-codebox-copy {
+	position: relative;
+	z-index: 1;
+	float: right;
+	display: block;
+	width: 16px;
+	height: 16px;
+	border: none;
+	background-color: var(--wui-codebox-copyicon-color);
+	padding: 0;
+	cursor: pointer;
+	mask-image: var(--wui-codebox-copyicon-src);
+	mask-position: center;
+	mask-size: cover;
+	mask-repeat: no-repeat;
+}
+
+button.wui-codebox-copy.top-right {
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right: 8px;
+	margin-bottom: -32px;
+	transform: translateY(-8px);
+}
+
+button.wui-codebox-copy.bottom-right {
+	margin-top: -32px;
+	margin-left: auto;
+	margin-right: 8px;
+	margin-bottom: 16px;
+	transform: translateY(-12px);
+}
+
+button.wui-codebox-copy.copied {
+	background-color: var(--wui-codebox-copiedicon-color);
+	mask-image: var(--wui-codebox-copiedicon-src);
+}
+
+pre.wui-codebox {
+	position: relative;
+	width: 100%;
+	max-height: var(--wui-codebox-maxheight);
+	margin: 0;
+	border: var(--wui-codebox-borderwidth) solid var(--wui-codebox-bordercolor);
+	border-radius: var(--wui-codebox-borderradius);
+	background-color: var(--wui-codebox-bgcolor);
+	padding: 10px 0 !important;
+	overflow: auto !important;
+	scrollbar-width: thin;
+	scrollbar-color: var(--wui-codebox-scroll-bgcolor-out) transparent;
+	line-height: 1.5;
+	font-family: "SourceCodePro", monospace;
+	font-size: var(--wui-codebox-textsize);
+	color: var(--wui-codebox-textcolor);
+}
+
+pre.wui-codebox::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+	background-color: transparent;
+}
+
+pre.wui-codebox::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	background-color: var(--wui-codebox-scroll-bgcolor-out);
+}
+
+pre.wui-codebox::-webkit-scrollbar-thumb:hover,
+pre.wui-codebox::-webkit-scrollbar-thumb:active {
+	background-color: var(--wui-codebox-scroll-bgcolor-over);
+}
+
+pre.wui-codebox::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+pre.wui-codebox > .canvas {
+	display: inline-block;
+	min-width: 100%;
+}
+
+pre.wui-codebox > .canvas > .line {
+	display: block;
+	padding: 0px 10px;
+	line-height: 1.6;
+	white-space: pre;
+}
+
+pre.wui-codebox > .canvas > .line:hover {
+	background-color: rgb(from var(--wui-codebox-line-bgcolor-over) r g b / 50%);
+}
+
+pre.wui-codebox > .canvas > .line:hover > .ln,
+pre.wui-codebox > .canvas > .line:hover > .ln:hover {
+	background-color: rgb(from var(--wui-codebox-line-bgcolor-over) r g b / 10%);
+}
+
+pre.wui-codebox > .canvas > .line > * {
+	z-index: 1;
+}
+
+pre.wui-codebox > .canvas > .line > .ln {
+	position: sticky;
+	z-index: 2;
+	left: 0;
+	display: inline-block;
+	min-width: var(--wui-codebox-linenumber-width);
+	margin-right: 0.75em;
+	border-right: 1px solid var(--wui-codebox-linenumber-bordercolor);
+	background-color: var(--wui-codebox-bgcolor);
+	padding-right: 0.75em;
+	-webkit-user-select: none;
+	user-select: none;
+	text-align: right;
+	color: rgb(from var(--wui-codebox-linenumber-color) r g b / 50%);
+}
+
+/* tokens colors */
+
+pre.wui-codebox > .canvas > .line > .tk-command {
+	font-weight: bold;
+	color: var(--wui-codebox-code-command);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-comment {
+	font-style: italic;
+	color: var(--wui-codebox-code-comment);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-string {
+	color: var(--wui-codebox-code-string);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-keyword {
+	font-weight: bold;
+	color: var(--wui-codebox-code-keyword);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-number {
+	color: var(--wui-codebox-code-number);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-tag {
+	color: var(--wui-codebox-code-tag);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-attr {
+	color: var(--wui-codebox-code-attr);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-selector {
+	color: var(--wui-codebox-code-selector);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-property {
+	color: var(--wui-codebox-code-property);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-function {
+	color: var(--wui-codebox-code-function);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-operator {
+	color: var(--wui-codebox-code-operator);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-variable {
+	color: var(--wui-codebox-code-variable);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-constant {
+	color: var(--wui-codebox-code-constant);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-decorator {
+	color: var(--wui-codebox-code-decorator);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-type {
+	color: var(--wui-codebox-code-type);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-builtin {
+	color: var(--wui-codebox-code-builtin);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-color {
+	color: var(--wui-codebox-code-color);
+}
+
+pre.wui-codebox > .canvas > .line > .tk-regex {
+	color: var(--wui-codebox-code-regex);
+}

@@ -10,7 +10,7 @@ This demo shows the use of WUICookie's basic functionality.
 
 ## WUI/JS Stack
 
-- WUICookie - 0.5
+- WUICookie - 0.6
 
 ## Documentation
 
@@ -50,7 +50,7 @@ body {
 HTML head:
 
 ```html
-<script type="text/javascript" src="/libraries/wui-js/main/cookie/wui-cookie-0.5.js"></script>
+<script type="text/javascript" src="/libraries/wui-js/main/cookie/wui-cookie-0.6.js"></script>
 ```
 
 HTML code:

@@ -8,14 +8,14 @@ const init = () => {
 		//expansive: true,
 		autoClose: false,
 		//hiddenPassiveBorder: false,
-		topButtons: [{
+		topOptions: [{
 			id: "logo",
 			iconImage: "https://wuijs.dev/images/logo/wuijs-isotype-color.svg",
 			label: "WUI /JS Lib",
 			tooltipable: false,
 			selectable: false
 		}],
-		mainButtons: [{
+		mainOptions: [{
 			id: "zones",
 			iconClass: "wui-icon home-fill",
 			label: "Home",
@@ -58,7 +58,7 @@ const init = () => {
 			label: "Notifications",
 			radio: false
 		}],
-		bottomButtons: [{
+		bottomOptions: [{
 			id: "logout",
 			iconClass: "wui-icon logout-line",
 			label: "Logout",

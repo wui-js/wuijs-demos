@@ -9,6 +9,7 @@ const init = () => {
 		//textData: null,
 		//submit: false,
 		//warning: false,
+		//outlined: false,
 		//flat: false,
 		//selectable: false,
 		//locked: false,
@@ -32,8 +33,17 @@ const init = () => {
 			output.textContent = "Double-Click button 2";
 		}
 	});
+	const button3 = new WUIButton({
+		selector: ".wui-button.button3",
+		//text: "button 3",
+		outlined: true,
+		onClick: () => {
+			output.textContent = "Click button 3";
+		}
+	});
 	button1.init();
 	button2.init();
+	button3.init();
 }
 
 window.addEventListener("DOMContentLoaded", init);

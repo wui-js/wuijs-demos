@@ -10,7 +10,7 @@ This demo shows the use of WUIFormat for number, string and date formatting.
 
 ## WUI/JS Stack
 
-- WUIFormat - 0.7
+- WUIFormat - 0.8
 
 ## Documentation
 
@@ -40,7 +40,7 @@ CSS Code:
 HTML head:
 
 ```html
-<script type="text/javascript" src="/libraries/wui-js/main/format/wui-format-0.7.js"></script>
+<script type="text/javascript" src="/libraries/wui-js/main/format/wui-format-0.8.js"></script>
 ```
 
 HTML code:
@@ -59,7 +59,7 @@ HTML code:
 <div class="output stringIPv4Validation"></div>
 <div class="output stringModule11Validation"></div>
 <div class="output stringModule23Validation"></div>
-<div class="output stringNIDValidation"></div>
+<div class="output stringTINValidation"></div>
 
 <h2>Date methods</h2>
 <div class="output dateLocalFormatting"></div>
@@ -201,13 +201,13 @@ const stringModule23Validation = () => {
 		+ "</pre>";
 }
 
-const stringNIDValidation = () => {
+const stringTINValidation = () => {
 	const inputValue = "1.234.567-4";
 	const inputCountryCode = "CL";
-	const output = document.body.querySelector(".output.stringNIDValidation");
-	const outputValid = inputValue.wuiValidateNid(inputCountryCode);
+	const output = document.body.querySelector(".output.stringTINValidation");
+	const outputValid = inputValue.wuiValidateTin(inputCountryCode);
 	output.innerHTML = "<pre>"
-		+ `<b>NID validation</b>\n`
+		+ `<b>TIN validation</b>\n`
 		+ `input value        : ${inputValue}\n`
 		+ `input country code : ${inputCountryCode}\n`
 		+ `output valid       : ${outputValid}\n`
@@ -274,7 +274,7 @@ window.addEventListener("DOMContentLoaded", () => {
 	stringIPv4Validation();
 	stringModule11Validation();
 	stringModule23Validation();
-	stringNIDValidation();
+	stringTINValidation();
 
 	dateInitDefaults();
 	dateLocalFormatting();

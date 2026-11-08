@@ -1,0 +1,350 @@
+/*
+@file wui-markdown-0.3.css
+@class WUIMarkdown
+@version 0.3
+@author Sergio E. Belmar V. (wuijs.project@gmail.com)
+@copyright Sergio E. Belmar V. (wuijs.project@gmail.com)
+*/
+
+.wui-markdown,
+.wui-markdown *,
+.wui-markdown *::before {
+	box-sizing: border-box;
+}
+
+.wui-markdown {
+	width: 100%;
+	line-height: var(--wui-markdown-lineheight);
+	font-family: var(--wui-markdown-textfont);
+	font-weight: var(--wui-markdown-textweight);
+	color: var(--wui-markdown-textcolor);
+}
+
+.wui-markdown :is(h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, pre, .table-wrapper) {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+/* horizontal line */
+
+.wui-markdown hr {
+	border-top: var(--wui-markdown-hline-width) solid var(--wui-markdown-hline-color);
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+/* title */
+
+.wui-markdown h1 {
+	font-family: var(--wui-markdown-title1-textfont);
+	font-size: var(--wui-markdown-title1-textsize);
+	font-weight: var(--wui-markdown-title1-textweight);
+	color: var(--wui-markdown-title1-textcolor);
+}
+
+.wui-markdown h2 {
+	font-family: var(--wui-markdown-title2-textfont);
+	font-size: var(--wui-markdown-title2-textsize);
+	font-weight: var(--wui-markdown-title2-textweight);
+	color: var(--wui-markdown-title2-textcolor);
+}
+
+.wui-markdown h3 {
+	font-family: var(--wui-markdown-title3-textfont);
+	font-size: var(--wui-markdown-title3-textsize);
+	font-weight: var(--wui-markdown-title3-textweight);
+	color: var(--wui-markdown-title3-textcolor);
+}
+
+/* image */
+
+.wui-markdown img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* table */
+
+.wui-markdown .table-wrapper {
+	display: inline-block;
+	max-width: 100%;
+	border: 1px solid var(--wui-markdown-table-bordercolor);
+	border-radius: var(--wui-markdown-table-borderradius);
+	overflow-x: auto;
+	scrollbar-width: thin;
+	scrollbar-color: var(--wui-markdown-table-scroll-bgcolor-out) transparent;
+}
+
+.wui-markdown .table-wrapper::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+	background-color: transparent;
+}
+
+.wui-markdown .table-wrapper::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	background-color: var(--wui-markdown-table-scroll-bgcolor-out);
+}
+
+.wui-markdown .table-wrapper::-webkit-scrollbar-thumb:hover,
+.wui-markdown .table-wrapper::-webkit-scrollbar-thumb:active {
+	background-color: var(--wui-markdown-table-scroll-bgcolor-over);
+}
+
+.wui-markdown .table-wrapper::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+.wui-markdown table,
+.wui-markdown table * {
+	vertical-align: var(--wui-markdown-table-valign);
+}
+
+.wui-markdown table {
+	max-width: 100%;
+	border-width: 0px;
+	border-collapse: collapse;
+}
+
+.wui-markdown table :is(th, td) {
+	padding: 5px;
+}
+
+.wui-markdown table th {
+	border-bottom: 1px solid var(--wui-markdown-table-header-bordercolor);
+	text-align: var(--wui-markdown-table-header-textalign);
+}
+
+.wui-markdown table tbody tr:not(:last-child) td {
+	border-bottom: 1px solid var(--wui-markdown-table-rows-bordercolor);
+}
+
+.wui-markdown table tbody tr:nth-child(odd) {
+	background-color: var(--wui-markdown-table-rows-bgcolor-even);
+}
+
+.wui-markdown table tbody tr:hover {
+	background-color: var(--wui-markdown-table-rows-bgcolor-over);
+}
+
+/* blockquote */
+
+.wui-markdown blockquote {
+	position: relative;
+	margin-left: 0px;
+	border: var(--wui-markdown-blockquote-border) solid var(--wui-markdown-blockquote-bordercolor);
+	border-left-color: var(--wui-markdown-blockquote-default-altcolor);
+	border-radius: var(--wui-markdown-blockquote-radius);
+	background-color: var(--wui-markdown-blockquote-bgcolor);
+	padding-top: var(--wui-markdown-blockquote-padding);
+	padding-left: calc(var(--wui-markdown-blockquote-borderleft) + var(--wui-markdown-blockquote-padding));
+	padding-right: var(--wui-markdown-blockquote-padding);
+	padding-bottom: var(--wui-markdown-blockquote-padding);
+	overflow: hidden;
+}
+
+.wui-markdown blockquote::before,
+.wui-markdown blockquote::after {
+	content: "";
+	position: absolute;
+}
+
+.wui-markdown blockquote::before {
+	top: 0;
+	left: calc(var(--wui-markdown-blockquote-borderleft) + var(--wui-markdown-blockquote-padding) + var(--wui-markdown-blockquote-iconsize) + 4px);
+	font-weight: bold;
+}
+
+.wui-markdown blockquote > i.icon {
+	position: absolute;
+	top: 3px;
+	left: calc(var(--wui-markdown-blockquote-borderleft) + var(--wui-markdown-blockquote-padding));
+	display: inline-block;
+	width: var(--wui-markdown-blockquote-iconsize);
+	height: var(--wui-markdown-blockquote-iconsize);
+	mask-position: center;
+	mask-size: contain;
+	mask-repeat: no-repeat;
+}
+
+.wui-markdown blockquote::after {
+	top: 0;
+	left: 0px;
+	width: var(--wui-markdown-blockquote-borderleft);
+	height: 100%;
+	background-color: var(--wui-markdown-blockquote-default-altcolor);
+}
+
+.wui-markdown blockquote:is(.note, .tip, .important, .warning, .caution) i + p {
+	margin-top: 20px;
+}
+
+.wui-markdown blockquote.note {
+	border-left-color: var(--wui-markdown-blockquote-note-altcolor);
+}
+
+.wui-markdown blockquote.note::before {
+	color: var(--wui-markdown-blockquote-note-altcolor);
+}
+
+.wui-markdown blockquote.note > i.icon {
+	background-color: var(--wui-markdown-blockquote-note-altcolor);
+	mask-image: var(--wui-markdown-blockquote-noteicon-src);
+}
+
+.wui-markdown blockquote.note::after {
+	background-color: var(--wui-markdown-blockquote-note-altcolor);
+}
+
+.wui-markdown blockquote.tip {
+	border-left-color: var(--wui-markdown-blockquote-tip-altcolor);
+}
+
+.wui-markdown blockquote.tip::before {
+	color: var(--wui-markdown-blockquote-tip-altcolor);
+}
+
+.wui-markdown blockquote.tip > i.icon {
+	background-color: var(--wui-markdown-blockquote-tip-altcolor);
+	mask-image: var(--wui-markdown-blockquote-tipicon-src);
+}
+
+.wui-markdown blockquote.tip::after {
+	background-color: var(--wui-markdown-blockquote-tip-altcolor);
+}
+
+.wui-markdown blockquote.important {
+	border-left-color: var(--wui-markdown-blockquote-important-altcolor);
+}
+
+.wui-markdown blockquote.important::before {
+	color: var(--wui-markdown-blockquote-important-altcolor);
+}
+
+.wui-markdown blockquote.important > i.icon {
+	background-color: var(--wui-markdown-blockquote-important-altcolor);
+	mask-image: var(--wui-markdown-blockquote-importanticon-src);
+}
+
+.wui-markdown blockquote.important::after {
+	background-color: var(--wui-markdown-blockquote-important-altcolor);
+}
+
+.wui-markdown blockquote.warning {
+	border-left-color: var(--wui-markdown-blockquote-warning-altcolor);
+}
+
+.wui-markdown blockquote.warning::before {
+	color: var(--wui-markdown-blockquote-warning-altcolor);
+}
+
+.wui-markdown blockquote.warning > i.icon {
+	background-color: var(--wui-markdown-blockquote-warning-altcolor);
+	mask-image: var(--wui-markdown-blockquote-warningicon-src);
+}
+
+.wui-markdown blockquote.warning::after {
+	background-color: var(--wui-markdown-blockquote-warning-altcolor);
+}
+
+.wui-markdown blockquote.caution {
+	border-left-color: var(--wui-markdown-blockquote-caution-altcolor);
+}
+
+.wui-markdown blockquote.caution::before {
+	color: var(--wui-markdown-blockquote-caution-altcolor);
+}
+
+.wui-markdown blockquote.caution > i.icon {
+	background-color: var(--wui-markdown-blockquote-caution-altcolor);
+	mask-image: var(--wui-markdown-blockquote-cautionicon-src);
+}
+
+.wui-markdown blockquote.caution::after {
+	background-color: var(--wui-markdown-blockquote-caution-altcolor);
+}
+
+.wui-markdown blockquote :is(p, pre):last-child {
+	margin-bottom: 0;
+}
+
+/* code */
+
+.wui-markdown code {
+	border: 1px solid var(--wui-markdown-code-bordercolor);
+	border-radius: var(--wui-markdown-code-borderradius);
+	background-color: var(--wui-markdown-code-bgcolor);
+	padding: 1px 2px;
+	white-space: nowrap;
+	font-family: "SourceCodePro", monospace;
+	font-size: var(--wui-markdown-code-textsize);
+}
+
+/* codebox */
+
+.wui-markdown pre {
+	width: 100%;
+	max-height: var(--wui-markdown-codebox-maxheight);
+	border: 1px solid var(--wui-markdown-codebox-bordercolor);
+	border-radius: var(--wui-markdown-codebox-borderradius);
+	background-color: var(--wui-markdown-codebox-bgcolor);
+	padding: 10px;
+	overflow: auto !important;
+	scrollbar-width: thin;
+	scrollbar-color: var(--wui-markdown-codebox-scroll-bgcolor-out) transparent;
+	line-height: 1.5;
+	font-family: "SourceCodePro", monospace;
+	font-size: var(--wui-markdown-codebox-textsize);
+	font-weight: normal;
+	color: var(--wui-markdown-codebox-textcolor);
+}
+
+.wui-markdown pre::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+	background-color: transparent;
+}
+
+.wui-markdown pre::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	background-color: var(--wui-markdown-codebox-scroll-bgcolor-out);
+}
+
+.wui-markdown pre::-webkit-scrollbar-thumb:hover,
+.wui-markdown pre::-webkit-scrollbar-thumb:active {
+	background-color: var(--wui-markdown-codebox-scroll-bgcolor-over);
+}
+
+.wui-markdown pre::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+/* link */
+
+.wui-markdown a {
+	text-decoration: var(--wui-markdown-link-textdecoration-out);
+	color: var(--wui-markdown-link-textcolor-out);
+}
+
+.wui-markdown a:hover {
+	text-decoration: var(--wui-markdown-link-textdecoration-hover);
+	color: var(--wui-markdown-link-textcolor-hover);
+}
+
+/* iframe */
+
+.wui-markdown iframe {
+	width: 100%;
+	max-width: 100%;
+	max-height: var(--wui-markdown-iframe-maxheight);
+	border: 1px solid var(--wui-markdown-iframe-bordercolor);
+	border-radius: var(--wui-markdown-iframe-borderradius);
+	background-color: var(--wui-markdown-iframe-bgcolor);
+	padding: 0;
+	color: var(--wui-markdown-iframe-textcolor);
+}
+
+.wui-markdown iframe[scrolling="no"] {
+	overflow: hidden;
+}

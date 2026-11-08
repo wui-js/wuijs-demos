@@ -130,13 +130,13 @@ const stringModule23Validation = () => {
 		+ "</pre>";
 }
 
-const stringNIDValidation = () => {
+const stringTINValidation = () => {
 	const inputValue = "1.234.567-4";
 	const inputCountryCode = "CL";
-	const output = document.body.querySelector(".output.stringNIDValidation");
-	const outputValid = inputValue.wuiValidateNid(inputCountryCode);
+	const output = document.body.querySelector(".output.stringTINValidation");
+	const outputValid = inputValue.wuiValidateTin(inputCountryCode);
 	output.innerHTML = "<pre>"
-		+ `<b>NID validation</b>\n`
+		+ `<b>TIN validation</b>\n`
 		+ `input value        : ${inputValue}\n`
 		+ `input country code : ${inputCountryCode}\n`
 		+ `output valid       : ${outputValid}\n`
@@ -203,7 +203,7 @@ window.addEventListener("DOMContentLoaded", () => {
 	stringIPv4Validation();
 	stringModule11Validation();
 	stringModule23Validation();
-	stringNIDValidation();
+	stringTINValidation();
 
 	dateInitDefaults();
 	dateLocalFormatting();

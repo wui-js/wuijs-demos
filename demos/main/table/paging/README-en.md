@@ -11,7 +11,7 @@ Table data is loaded directly in component creation.
 
 ## WUI/JS Stack
 
-- WUITable - 0.13
+- WUITable - 0.14
 
 ## Documentation
 
@@ -89,9 +89,9 @@ footer {
 HTML head:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/table/wui-table-0.13.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/table/wui-table-0.13.css">
-<script type="text/javascript" src="/libraries/wui-js/main/table/wui-table-0.13.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/table/wui-table-0.14.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/table/wui-table-0.14.css">
+<script type="text/javascript" src="/libraries/wui-js/main/table/wui-table-0.14.js"></script>
 ```
 
 HTML code:

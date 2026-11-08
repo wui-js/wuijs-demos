@@ -10,8 +10,8 @@ This demo shows the use of WUIButton's basic functionality.
 
 ## WUI/JS Stack
 
-- WUIIcon - 0.14
-- WUIButton - 0.16
+- WUIIcon - 0.15
+- WUIButton - 0.17
 
 ## Documentation
 
@@ -58,11 +58,11 @@ nav {
 HTML head:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/button/wui-button-0.16.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/button/wui-button-0.16.css">
-<script type="text/javascript" src="/libraries/wui-js/main/button/wui-button-0.16.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.15.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.15.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/button/wui-button-0.17.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/button/wui-button-0.17.css">
+<script type="text/javascript" src="/libraries/wui-js/main/button/wui-button-0.17.js"></script>
 ```
 
 HTML code:
@@ -71,6 +71,7 @@ HTML code:
 <nav>
 	<button class="wui-button my-button button1"></button>
 	<button class="wui-button my-button button2"></button>
+	<button class="wui-button my-button button3"></button>
 	<div class="output"></div>
 </nav>
 ```
@@ -89,6 +90,7 @@ const init = () => {
 		//textData: null,
 		//submit: false,
 		//warning: false,
+		//outlined: false,
 		//flat: false,
 		//selectable: false,
 		//locked: false,
@@ -112,8 +114,17 @@ const init = () => {
 			output.textContent = "Double-Click button 2";
 		}
 	});
+	const button3 = new WUIButton({
+		selector: ".wui-button.button3",
+		//text: "button 3",
+		outlined: true,
+		onClick: () => {
+			output.textContent = "Click button 3";
+		}
+	});
 	button1.init();
 	button2.init();
+	button3.init();
 }
 
 window.addEventListener("DOMContentLoaded", init);

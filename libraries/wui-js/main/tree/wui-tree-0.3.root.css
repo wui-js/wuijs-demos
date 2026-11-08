@@ -1,0 +1,29 @@
+/*
+@file wui-tree-0.3.root.css
+@class WUITree
+@version 0.3
+@author Sergio E. Belmar V. (wuijs.project@gmail.com)
+@copyright Sergio E. Belmar V. (wuijs.project@gmail.com)
+*/
+
+:root {
+
+	/* wui-tree */
+
+	--wui-tree-node-borderradius: 10px;
+	--wui-tree-node-borderwidth: 1px;
+	--wui-tree-node-bordercolor-out: transparent;
+	--wui-tree-node-bordercolor-over: #f6f6f6;
+	--wui-tree-node-bgcolor-out: transparent;
+	--wui-tree-node-bgcolor-over: #f6f6f6;
+	--wui-tree-node-horizontalpadding: 10px;
+	--wui-tree-node-verticalpadding: 2px;
+	--wui-tree-node-iconsize: 16px;
+	--wui-tree-node-iconcolor-out: rgb(from #353a40 r g b / 70%);
+	--wui-tree-node-iconcolor-over: #353a40;
+	--wui-tree-node-iconcolor-disabled: #d5dce3;
+	--wui-tree-node-textcolor-out: #2d3a47;
+	--wui-tree-node-textcolor-over: #1f2937;
+	--wui-tree-node-textcolor-disabled: #d5dce3;
+	--wui-tree-node-textsize: 14px;
+}

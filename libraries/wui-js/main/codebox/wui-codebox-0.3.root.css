@@ -1,0 +1,48 @@
+/*
+@file wui-codebox-0.3.root.css
+@class WUICodebox
+@version 0.3
+@author Sergio E. Belmar V. (wuijs.project@gmail.com)
+@copyright Sergio E. Belmar V. (wuijs.project@gmail.com)
+*/
+
+:root {
+
+	/* wui-codebox */
+
+	--wui-codebox-maxheight: 50vh;
+	--wui-codebox-borderwidth: 1px;
+	--wui-codebox-borderradius: 5px;
+	--wui-codebox-bordercolor: #d5dce3;
+	--wui-codebox-bgcolor: #f6f6f6;
+	--wui-codebox-scroll-bgcolor-out: rgb(from #353a40 r g b / 40%);
+	--wui-codebox-scroll-bgcolor-over: rgb(from #353a40 r g b / 70%);
+	--wui-codebox-copyicon-src: none;
+	--wui-codebox-copyicon-color: #b5bbc1;
+	--wui-codebox-copiedicon-src: none;
+	--wui-codebox-copiedicon-color: #b5bbc1;
+	--wui-codebox-line-bgcolor-over: #d5dce3;
+	--wui-codebox-linenumber-width: 52px;
+	--wui-codebox-linenumber-color: #444;
+	--wui-codebox-linenumber-bordercolor: #d5dce3;
+	--wui-codebox-textcolor: #2d3a47;
+	--wui-codebox-textsize: 12px;
+	--wui-codebox-code-command: light-dark(#3e999f, #8abeb7);
+	--wui-codebox-code-comment: light-dark(#8e908c, #969896);
+	--wui-codebox-code-string: light-dark(#718c00, #b5bd68);
+	--wui-codebox-code-keyword: light-dark(#8959a8, #b294bb);
+	--wui-codebox-code-number: light-dark(#f5871f, #de935f);
+	--wui-codebox-code-tag: light-dark(#c82829, #cc6666);
+	--wui-codebox-code-attr: light-dark(#3e999f, #8abeb7);
+	--wui-codebox-code-selector: light-dark(#8959a8, #b294bb);
+	--wui-codebox-code-property: light-dark(#4271ae, #81a2be);
+	--wui-codebox-code-function: light-dark(#eab700, #f0c674);
+	--wui-codebox-code-operator: light-dark(#4d4d4c, #c5c8c6);
+	--wui-codebox-code-variable: light-dark(#4271ae, #81a2be);
+	--wui-codebox-code-constant: light-dark(#f5871f, #de935f);
+	--wui-codebox-code-decorator: light-dark(#f5871f, #de935f);
+	--wui-codebox-code-type: light-dark(#3e999f, #8abeb7);
+	--wui-codebox-code-builtin: light-dark(#3e999f, #8abeb7);
+	--wui-codebox-code-color: light-dark(#4271ae, #81a2be);
+	--wui-codebox-code-regex: light-dark(#3e999f, #8abeb7);
+}

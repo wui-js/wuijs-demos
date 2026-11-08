@@ -1,0 +1,63 @@
+/*
+@file wui-modal-0.14.root.css
+@class WUIModal
+@version 0.14
+@author Sergio E. Belmar V. (wuijs.project@gmail.com)
+@copyright Sergio E. Belmar V. (wuijs.project@gmail.com)
+*/
+
+:root {
+	--wui-modal-transition-delay: 300ms;
+	--wui-modal-overlay-bgcolor: rgb(from #010203 r g b / 20%);
+	--wui-modal-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	--wui-modal-box-borderwidth: 0px;
+	--wui-modal-box-bordercolor: #d5dce3;
+	--wui-modal-box-borderradius: 17px;
+	--wui-modal-box-bgcolor: rgb(from #efeff6 r g b / 100%);
+	--wui-modal-box-filter: blur(10px);
+	--wui-modal-back-textcolor: #1e90ff;
+	--wui-modal-back-textsize: 14px;
+	--wui-modal-close-bgcolor: #353a40;
+	--wui-modal-topbar-height: 4px;
+	--wui-modal-title-textfont: Arial, Helvetica, Verdana, sans-serif;
+	--wui-modal-title-textcase: none;
+	--wui-modal-title-textcolor: #000;
+	--wui-modal-title-textsize: 17px;
+	--wui-modal-body-scroll-bgcolor-out: rgb(from #353a40 r g b / 40%);
+	--wui-modal-body-scroll-bgcolor-over: rgb(from #353a40 r g b / 70%);
+	--wui-modal-body-textsize: 14px;
+	--wui-modal-body-text-textsize: 12px;
+	--wui-modal-footer-bordercolor: transparent;
+	--wui-modal-footer-justify: center;
+	--wui-modal-footer-horizontalmargin: 5px;
+	--wui-modal-mobile-button-submit-bgcolor: rgb(from #959da5 r g b / 20%);
+	--wui-modal-mobile-button-submit-textcolor: #1e90ff;
+	--wui-modal-mobile-button-danger-textcolor: #ef4444;
+	--wui-modal-message-box-width: 280px;
+	--wui-modal-message-box-bgcolor: rgb(from #efeff6 r g b / 100%);
+	--wui-modal-message-box-textcolor: #2d3a47;
+	--wui-modal-message-text-textsize: 13px;
+	--wui-modal-message-mobile-box-width: 280px;
+	--wui-modal-message-mobile-footer-bordercolor: #d5dce3;
+	--wui-modal-message-mobile-button-bordercolor: #d5dce3;
+	--wui-modal-message-linkcolor: #1e90ff;
+	--wui-modal-message-link-textsize: 14px;
+	--wui-modal-page-box-width: 800px;
+	--wui-modal-page-box-height: 90%;
+	--wui-modal-page-box-borderradius: 10px;
+	--wui-modal-page-box-maxheight: 640px;
+	--wui-modal-page-box-bgcolor: rgb(from #efeff6 r g b / 100%);
+	--wui-modal-page-header-topbar-bgcolor: #d5dce3;
+	--wui-modal-page-header-bordercolor: #d5dce3;
+	--wui-modal-smallpage-box-width: 340px;
+	--wui-modal-smallpage-box-height: 280px;
+	--wui-modal-slidepage-box-width: 300px;
+	--wui-modal-slidepage-box-margin: 10px;
+	--wui-modal-mobile-page-box-topmargin: 0px;
+	--wui-modal-mobile-page-box-borderradius-maximized: 0px;
+	--wui-modal-mobile-box-filter: none;
+	--wui-modal-mobile-back-textsize: 17px;
+	--wui-modal-mobile-body-textsize: 20px;
+	--wui-modal-mobile-body-text-textsize: 15px;
+	--wui-modal-mobile-footer-button-textsize: 17px;
+}

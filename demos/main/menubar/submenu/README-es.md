@@ -10,8 +10,8 @@ Esta demostración muestra el uso de la funcionalidad de submenú de WUIMenubar.
 
 ## Stack WUI/JS
 
-- WUIIcon - 0.14
-- WUIMenubar - 0.10
+- WUIIcon - 0.15
+- WUIMenubar - 0.11
 
 ## Documentación
 
@@ -63,11 +63,11 @@ body {
 Cabecera HTML:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.14.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/menubar/wui-menubar-0.10.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/menubar/wui-menubar-0.10.css">
-<script type="text/javascript" src="/libraries/wui-js/main/menubar/wui-menubar-0.10.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.15.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/icon/wui-icon-0.15.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/menubar/wui-menubar-0.11.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/menubar/wui-menubar-0.11.css">
+<script type="text/javascript" src="/libraries/wui-js/main/menubar/wui-menubar-0.11.js"></script>
 ```
 
 Cuerpo HTML:
@@ -90,14 +90,14 @@ const init = () => {
 		//expansive: true,
 		autoClose: false,
 		//hiddenPassiveBorder: false,
-		topButtons: [{
+		topOptions: [{
 			id: "logo",
 			iconImage: "https://wuijs.dev/Images/Logo/wuijs-isotype-color.svg",
 			label: "WUI /JS Lib",
 			tooltipable: false,
 			selectable: false
 		}],
-		mainButtons: [{
+		mainOptions: [{
 			id: "home",
 			iconClass: "wui-icon home-fill",
 			label: "Inicio",
@@ -140,7 +140,7 @@ const init = () => {
 			label: "Notificaciones",
 			radio: false
 		}],
-		bottomButtons: [{
+		bottomOptions: [{
 			id: "logout",
 			iconClass: "wui-icon logout-line",
 			label: "Cerrar sesión",

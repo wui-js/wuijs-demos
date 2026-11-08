@@ -1,0 +1,277 @@
+/*
+@file wui-codebox-0.3.styles.css
+@class WUICodebox
+@version 0.3
+@author Sergio E. Belmar V. (wuijs.project@gmail.com)
+@copyright Sergio E. Belmar V. (wuijs.project@gmail.com)
+*/
+
+/* data-style="theme": no rule; the tokens are inherited from the page (WUIPluginBodyTheme or the .root.css defaults) */
+
+pre.wui-codebox[data-style="default"] {
+	color-scheme: light dark;
+	--wui-codebox-code-command:   light-dark(#3e999f, #8abeb7);
+	--wui-codebox-code-comment:   light-dark(#8e908c, #969896);
+	--wui-codebox-code-string:    light-dark(#718c00, #b5bd68);
+	--wui-codebox-code-keyword:   light-dark(#8959a8, #b294bb);
+	--wui-codebox-code-number:    light-dark(#f5871f, #de935f);
+	--wui-codebox-code-tag:       light-dark(#c82829, #cc6666);
+	--wui-codebox-code-attr:      light-dark(#3e999f, #8abeb7);
+	--wui-codebox-code-selector:  light-dark(#8959a8, #b294bb);
+	--wui-codebox-code-property:  light-dark(#4271ae, #81a2be);
+	--wui-codebox-code-function:  light-dark(#eab700, #f0c674);
+	--wui-codebox-code-operator:  light-dark(#4d4d4c, #c5c8c6);
+	--wui-codebox-code-variable:  light-dark(#4271ae, #81a2be);
+	--wui-codebox-code-constant:  light-dark(#f5871f, #de935f);
+	--wui-codebox-code-decorator: light-dark(#f5871f, #de935f);
+	--wui-codebox-code-type:      light-dark(#3e999f, #8abeb7);
+	--wui-codebox-code-builtin:   light-dark(#3e999f, #8abeb7);
+	--wui-codebox-code-color:     light-dark(#4271ae, #81a2be);
+	--wui-codebox-code-regex:     light-dark(#3e999f, #8abeb7);
+}
+
+pre.wui-codebox[data-style="github"] {
+	color-scheme: light dark;
+	--wui-codebox-code-command:   light-dark(#005cc5, #79c0ff);
+	--wui-codebox-code-comment:   light-dark(#6a737d, #8b949e);
+	--wui-codebox-code-string:    light-dark(#032f62, #a5d6ff);
+	--wui-codebox-code-keyword:   light-dark(#d73a49, #ff7b72);
+	--wui-codebox-code-number:    light-dark(#005cc5, #79c0ff);
+	--wui-codebox-code-tag:       light-dark(#22863a, #7ee787);
+	--wui-codebox-code-attr:      light-dark(#6f42c1, #d2a8ff);
+	--wui-codebox-code-selector:  light-dark(#6f42c1, #d2a8ff);
+	--wui-codebox-code-property:  light-dark(#005cc5, #79c0ff);
+	--wui-codebox-code-function:  light-dark(#6f42c1, #d2a8ff);
+	--wui-codebox-code-operator:  light-dark(#24292e, #c9d1d9);
+	--wui-codebox-code-variable:  light-dark(#e36209, #ffa657);
+	--wui-codebox-code-constant:  light-dark(#005cc5, #79c0ff);
+	--wui-codebox-code-decorator: light-dark(#6f42c1, #d2a8ff);
+	--wui-codebox-code-type:      light-dark(#6f42c1, #d2a8ff);
+	--wui-codebox-code-builtin:   light-dark(#005cc5, #79c0ff);
+	--wui-codebox-code-color:     light-dark(#005cc5, #79c0ff);
+	--wui-codebox-code-regex:     light-dark(#032f62, #a5d6ff);
+}
+
+pre.wui-codebox[data-style="vscode"] {
+	color-scheme: light dark;
+	--wui-codebox-code-command:   light-dark(#1f2328, #c9d1d9);
+	--wui-codebox-code-comment:   light-dark(#6e7781, #8b949e);
+	--wui-codebox-code-string:    light-dark(#0a3069, #a5d6ff);
+	--wui-codebox-code-keyword:   light-dark(#cf222e, #ff7b72);
+	--wui-codebox-code-number:    light-dark(#1f2328, #c9d1d9);
+	--wui-codebox-code-tag:       light-dark(#116329, #7ee787);
+	--wui-codebox-code-attr:      light-dark(#1f2328, #c9d1d9);
+	--wui-codebox-code-selector:  light-dark(#116329, #7ee787);
+	--wui-codebox-code-property:  light-dark(#1f2328, #c9d1d9);
+	--wui-codebox-code-function:  light-dark(#8250df, #d2a8ff);
+	--wui-codebox-code-operator:  light-dark(#202020, #bbbebf);
+	--wui-codebox-code-variable:  light-dark(#1f2328, #c9d1d9);
+	--wui-codebox-code-constant:  light-dark(#1f2328, #c9d1d9);
+	--wui-codebox-code-decorator: light-dark(#953800, #ffa657);
+	--wui-codebox-code-type:      light-dark(#1f2328, #c9d1d9);
+	--wui-codebox-code-builtin:   light-dark(#1f2328, #c9d1d9);
+	--wui-codebox-code-color:     light-dark(#1f2328, #c9d1d9);
+	--wui-codebox-code-regex:     light-dark(#0a3069, #a5d6ff);
+}
+
+pre.wui-codebox[data-style="xcode"] {
+	color-scheme: light dark;
+	--wui-codebox-code-command:   light-dark(#3900a0, #67b7a4);
+	--wui-codebox-code-comment:   light-dark(#536579, #6c7986);
+	--wui-codebox-code-string:    light-dark(#d12f1b, #ff8170);
+	--wui-codebox-code-keyword:   light-dark(#9b2393, #fc5fa3);
+	--wui-codebox-code-number:    light-dark(#272ad8, #d9c97c);
+	--wui-codebox-code-tag:       light-dark(#c41a16, #ff8170);
+	--wui-codebox-code-attr:      light-dark(#836c28, #ffa14f);
+	--wui-codebox-code-selector:  light-dark(#9b2393, #fc5fa3);
+	--wui-codebox-code-property:  light-dark(#0b4f79, #5dd8ff);
+	--wui-codebox-code-function:  light-dark(#3900a0, #67b7a4);
+	--wui-codebox-code-operator:  light-dark(#000000, #dfdfe0);
+	--wui-codebox-code-variable:  light-dark(#3900a0, #dfdfe0);
+	--wui-codebox-code-constant:  light-dark(#272ad8, #d9c97c);
+	--wui-codebox-code-decorator: light-dark(#836c28, #ffa14f);
+	--wui-codebox-code-type:      light-dark(#0b4f79, #5dd8ff);
+	--wui-codebox-code-builtin:   light-dark(#0b4f79, #5dd8ff);
+	--wui-codebox-code-color:     light-dark(#272ad8, #d9c97c);
+	--wui-codebox-code-regex:     light-dark(#d12f1b, #ff8170);
+}
+
+/* light mode */
+
+body.light pre.wui-codebox[data-style="default"] {
+	color-scheme: light;
+	--wui-codebox-code-command:   #3e999f;
+	--wui-codebox-code-comment:   #8e908c;
+	--wui-codebox-code-string:    #718c00;
+	--wui-codebox-code-keyword:   #8959a8;
+	--wui-codebox-code-number:    #f5871f;
+	--wui-codebox-code-tag:       #c82829;
+	--wui-codebox-code-attr:      #3e999f;
+	--wui-codebox-code-selector:  #8959a8;
+	--wui-codebox-code-property:  #4271ae;
+	--wui-codebox-code-function:  #eab700;
+	--wui-codebox-code-operator:  #4d4d4c;
+	--wui-codebox-code-variable:  #4271ae;
+	--wui-codebox-code-constant:  #f5871f;
+	--wui-codebox-code-decorator: #f5871f;
+	--wui-codebox-code-type:      #3e999f;
+	--wui-codebox-code-builtin:   #3e999f;
+	--wui-codebox-code-color:     #4271ae;
+	--wui-codebox-code-regex:     #3e999f;
+}
+
+body.light pre.wui-codebox[data-style="github"] {
+	color-scheme: light;
+	--wui-codebox-code-command:   #005cc5;
+	--wui-codebox-code-comment:   #6a737d;
+	--wui-codebox-code-string:    #032f62;
+	--wui-codebox-code-keyword:   #d73a49;
+	--wui-codebox-code-number:    #005cc5;
+	--wui-codebox-code-tag:       #22863a;
+	--wui-codebox-code-attr:      #6f42c1;
+	--wui-codebox-code-selector:  #6f42c1;
+	--wui-codebox-code-property:  #005cc5;
+	--wui-codebox-code-function:  #6f42c1;
+	--wui-codebox-code-operator:  #24292e;
+	--wui-codebox-code-variable:  #e36209;
+	--wui-codebox-code-constant:  #005cc5;
+	--wui-codebox-code-decorator: #6f42c1;
+	--wui-codebox-code-type:      #6f42c1;
+	--wui-codebox-code-builtin:   #005cc5;
+	--wui-codebox-code-color:     #005cc5;
+	--wui-codebox-code-regex:     #032f62;
+}
+
+body.light pre.wui-codebox[data-style="vscode"] {
+	color-scheme: light;
+	--wui-codebox-code-command:   #1f2328;
+	--wui-codebox-code-comment:   #6e7781;
+	--wui-codebox-code-string:    #0a3069;
+	--wui-codebox-code-keyword:   #cf222e;
+	--wui-codebox-code-number:    #1f2328;
+	--wui-codebox-code-tag:       #116329;
+	--wui-codebox-code-attr:      #1f2328;
+	--wui-codebox-code-selector:  #116329;
+	--wui-codebox-code-property:  #1f2328;
+	--wui-codebox-code-function:  #8250df;
+	--wui-codebox-code-operator:  #202020;
+	--wui-codebox-code-variable:  #1f2328;
+	--wui-codebox-code-constant:  #1f2328;
+	--wui-codebox-code-decorator: #953800;
+	--wui-codebox-code-type:      #1f2328;
+	--wui-codebox-code-builtin:   #1f2328;
+	--wui-codebox-code-color:     #1f2328;
+	--wui-codebox-code-regex:     #0a3069;
+}
+
+body.light pre.wui-codebox[data-style="xcode"] {
+	color-scheme: light;
+	--wui-codebox-code-command:   #3900a0;
+	--wui-codebox-code-comment:   #536579;
+	--wui-codebox-code-string:    #d12f1b;
+	--wui-codebox-code-keyword:   #9b2393;
+	--wui-codebox-code-number:    #272ad8;
+	--wui-codebox-code-tag:       #c41a16;
+	--wui-codebox-code-attr:      #836c28;
+	--wui-codebox-code-selector:  #9b2393;
+	--wui-codebox-code-property:  #0b4f79;
+	--wui-codebox-code-function:  #3900a0;
+	--wui-codebox-code-operator:  #000000;
+	--wui-codebox-code-variable:  #3900a0;
+	--wui-codebox-code-constant:  #272ad8;
+	--wui-codebox-code-decorator: #836c28;
+	--wui-codebox-code-type:      #0b4f79;
+	--wui-codebox-code-builtin:   #0b4f79;
+	--wui-codebox-code-color:     #272ad8;
+	--wui-codebox-code-regex:     #d12f1b;
+}
+
+/* dark mode */
+
+body.dark pre.wui-codebox[data-style="default"] {
+	color-scheme: dark;
+	--wui-codebox-code-command:   #8abeb7;
+	--wui-codebox-code-comment:   #969896;
+	--wui-codebox-code-string:    #b5bd68;
+	--wui-codebox-code-keyword:   #b294bb;
+	--wui-codebox-code-number:    #de935f;
+	--wui-codebox-code-tag:       #cc6666;
+	--wui-codebox-code-attr:      #8abeb7;
+	--wui-codebox-code-selector:  #b294bb;
+	--wui-codebox-code-property:  #81a2be;
+	--wui-codebox-code-function:  #f0c674;
+	--wui-codebox-code-operator:  #c5c8c6;
+	--wui-codebox-code-variable:  #81a2be;
+	--wui-codebox-code-constant:  #de935f;
+	--wui-codebox-code-decorator: #de935f;
+	--wui-codebox-code-type:      #8abeb7;
+	--wui-codebox-code-builtin:   #8abeb7;
+	--wui-codebox-code-color:     #81a2be;
+	--wui-codebox-code-regex:     #8abeb7;
+}
+
+body.dark pre.wui-codebox[data-style="github"] {
+	color-scheme: dark;
+	--wui-codebox-code-command:   #79c0ff;
+	--wui-codebox-code-comment:   #8b949e;
+	--wui-codebox-code-string:    #a5d6ff;
+	--wui-codebox-code-keyword:   #ff7b72;
+	--wui-codebox-code-number:    #79c0ff;
+	--wui-codebox-code-tag:       #7ee787;
+	--wui-codebox-code-attr:      #d2a8ff;
+	--wui-codebox-code-selector:  #d2a8ff;
+	--wui-codebox-code-property:  #79c0ff;
+	--wui-codebox-code-function:  #d2a8ff;
+	--wui-codebox-code-operator:  #c9d1d9;
+	--wui-codebox-code-variable:  #ffa657;
+	--wui-codebox-code-constant:  #79c0ff;
+	--wui-codebox-code-decorator: #d2a8ff;
+	--wui-codebox-code-type:      #d2a8ff;
+	--wui-codebox-code-builtin:   #79c0ff;
+	--wui-codebox-code-color:     #79c0ff;
+	--wui-codebox-code-regex:     #a5d6ff;
+}
+
+body.dark pre.wui-codebox[data-style="vscode"] {
+	color-scheme: dark;
+	--wui-codebox-code-command:   #c9d1d9;
+	--wui-codebox-code-comment:   #8b949e;
+	--wui-codebox-code-string:    #a5d6ff;
+	--wui-codebox-code-keyword:   #ff7b72;
+	--wui-codebox-code-number:    #c9d1d9;
+	--wui-codebox-code-tag:       #7ee787;
+	--wui-codebox-code-attr:      #c9d1d9;
+	--wui-codebox-code-selector:  #7ee787;
+	--wui-codebox-code-property:  #c9d1d9;
+	--wui-codebox-code-function:  #d2a8ff;
+	--wui-codebox-code-operator:  #bbbebf;
+	--wui-codebox-code-variable:  #c9d1d9;
+	--wui-codebox-code-constant:  #c9d1d9;
+	--wui-codebox-code-decorator: #ffa657;
+	--wui-codebox-code-type:      #c9d1d9;
+	--wui-codebox-code-builtin:   #c9d1d9;
+	--wui-codebox-code-color:     #c9d1d9;
+	--wui-codebox-code-regex:     #a5d6ff;
+}
+
+body.dark pre.wui-codebox[data-style="xcode"] {
+	color-scheme: dark;
+	--wui-codebox-code-command:   #67b7a4;
+	--wui-codebox-code-comment:   #6c7986;
+	--wui-codebox-code-string:    #ff8170;
+	--wui-codebox-code-keyword:   #fc5fa3;
+	--wui-codebox-code-number:    #d9c97c;
+	--wui-codebox-code-tag:       #ff8170;
+	--wui-codebox-code-attr:      #ffa14f;
+	--wui-codebox-code-selector:  #fc5fa3;
+	--wui-codebox-code-property:  #5dd8ff;
+	--wui-codebox-code-function:  #67b7a4;
+	--wui-codebox-code-operator:  #dfdfe0;
+	--wui-codebox-code-variable:  #dfdfe0;
+	--wui-codebox-code-constant:  #d9c97c;
+	--wui-codebox-code-decorator: #ffa14f;
+	--wui-codebox-code-type:      #5dd8ff;
+	--wui-codebox-code-builtin:   #5dd8ff;
+	--wui-codebox-code-color:     #d9c97c;
+	--wui-codebox-code-regex:     #ff8170;
+}

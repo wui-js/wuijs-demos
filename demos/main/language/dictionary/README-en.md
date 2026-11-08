@@ -10,7 +10,7 @@ This demo shows the use of the WUILanguage term dictionaries through the `fixedD
 
 ## WUI/JS Stack
 
-- WUILanguage - 0.9
+- WUILanguage - 0.10
 
 ## Documentation
 
@@ -97,7 +97,7 @@ nav select {
 HTML header:
 
 ```html
-<script type="text/javascript" src="/libraries/wui-js/main/language/wui-language-0.9.js"></script>
+<script type="text/javascript" src="/libraries/wui-js/main/language/wui-language-0.10.js"></script>
 ```
 
 HTML code:

@@ -1,0 +1,56 @@
+/*
+@file wui-markdown-0.3.texts.css
+@class WUIMarkdown
+@version 0.3
+@author Sergio E. Belmar V. (wuijs.project@gmail.com)
+@copyright Sergio E. Belmar V. (wuijs.project@gmail.com)
+*/
+
+/* blockquote language (en by default) */
+
+.wui-markdown blockquote.note::before,
+.wui-markdown blockquote.note.en::before {
+	content: "Note";
+}
+
+.wui-markdown blockquote.tip::before,
+.wui-markdown blockquote.tip.en::before {
+	content: "Tip";
+}
+
+.wui-markdown blockquote.important::before,
+.wui-markdown blockquote.important.en::before {
+	content: "Important";
+}
+
+.wui-markdown blockquote.warning::before,
+.wui-markdown blockquote.warning.en::before {
+	content: "Warning";
+}
+
+.wui-markdown blockquote.caution::before,
+.wui-markdown blockquote.caution.en::before {
+	content: "Caution";
+}
+
+/* blockquote language (es) */
+
+.wui-markdown blockquote.note.es::before {
+	content: "Nota";
+}
+
+.wui-markdown blockquote.tip.es::before {
+	content: "Consejo";
+}
+
+.wui-markdown blockquote.important.es::before {
+	content: "Importante";
+}
+
+.wui-markdown blockquote.warning.es::before {
+	content: "Advertencia";
+}
+
+.wui-markdown blockquote.caution.es::before {
+	content: "Precaución";
+}

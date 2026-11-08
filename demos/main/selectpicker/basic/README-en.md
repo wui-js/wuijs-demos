@@ -11,7 +11,7 @@ Load the selector options by reading the `<option>` elements from the DOM.
 
 ## WUI/JS Stack
 
-- WUISelectpicker - 0.15
+- WUISelectpicker - 0.16
 
 ## Documentation
 
@@ -62,9 +62,9 @@ nav {
 HTML head:
 
 ```html
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.root.css">
-<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.css">
-<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.15.js"></script>
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.16.root.css">
+<link type="text/css" rel="stylesheet" href="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.16.css">
+<script type="text/javascript" src="https://wuijs.dev/libraries/wui-js/main/selectpicker/wui-selectpicker-0.16.js"></script>
 ```
 
 HTML code:

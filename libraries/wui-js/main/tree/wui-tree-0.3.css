@@ -1,0 +1,122 @@
+/*
+@file wui-tree-0.3.css
+@class WUITree
+@version 0.3
+@author Sergio E. Belmar V. (wuijs.project@gmail.com)
+@copyright Sergio E. Belmar V. (wuijs.project@gmail.com)
+*/
+
+div.wui-tree,
+div.wui-tree * {
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+div.wui-tree {
+	width: 100%;
+}
+
+div.wui-tree,
+div.wui-tree ul {
+	position: relative;
+}
+
+div.wui-tree ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div.wui-tree ul[data-depth="0"] {
+	padding: 0;
+}
+
+div.wui-tree ul[data-depth]:not([data-depth="0"]) {
+	padding-left: calc(var(--wui-tree-node-iconsize) + 0 * var(--wui-tree-node-horizontalpadding) + 4px);
+}
+
+div.wui-tree li.node > .node-row {
+	display: flex;
+	border: var(--wui-tree-node-borderwidth) solid var(--wui-tree-node-bordercolor-out);
+	border-radius: var(--wui-tree-node-borderradius);
+	background-color: var(--wui-tree-node-bgcolor-out);
+	padding: var(--wui-tree-node-verticalpadding) var(--wui-tree-node-horizontalpadding);
+	cursor: pointer;
+	user-select: none;
+	align-items: center;
+	gap: 4px;
+}
+
+div.wui-tree li.node:not(.disabled) > .node-row:hover {
+	border-color: var(--wui-tree-node-bordercolor-over);
+	background-color: var(--wui-tree-node-bgcolor-over);
+}
+
+div.wui-tree li.node:not(.disabled) > .node-row:hover .icon,
+div.wui-tree li.node:not(.disabled) > .node-row:hover .arrow {
+	color: var(--wui-tree-node-iconcolor-over);
+}
+
+div.wui-tree li.node:not(.disabled) > .node-row:hover .text {
+	color: var(--wui-tree-node-textcolor-over);
+}
+
+div.wui-tree li.node.disabled > .node-row {
+	cursor: default;
+}
+
+div.wui-tree li.node.disabled .icon,
+div.wui-tree li.node.disabled .arrow {
+	color: var(--wui-tree-node-iconcolor-disabled);
+}
+
+div.wui-tree li.node.disabled .text {
+	color: var(--wui-tree-node-textcolor-disabled);
+}
+
+div.wui-tree .node-row > .arrow {
+	display: flex;
+	width: var(--wui-tree-node-iconsize);
+	height: var(--wui-tree-node-iconsize);
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: center;
+	color: var(--wui-tree-node-iconcolor-out);
+}
+
+div.wui-tree .node-row > .arrow svg {
+	width: var(--wui-tree-node-iconsize);
+	height: var(--wui-tree-node-iconsize);
+}
+
+div.wui-tree .node-row > .icon {
+	display: flex;
+	width: var(--wui-tree-node-iconsize);
+	height: var(--wui-tree-node-iconsize);
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: center;
+	color: var(--wui-tree-node-iconcolor-out);
+}
+
+div.wui-tree .node-row > .icon svg {
+	width: var(--wui-tree-node-iconsize);
+	height: var(--wui-tree-node-iconsize);
+}
+
+div.wui-tree .node-row > img.icon {
+	width: var(--wui-tree-node-iconsize);
+	height: var(--wui-tree-node-iconsize);
+	object-fit: contain;
+	flex-shrink: 0;
+}
+
+div.wui-tree .node-row > .text {
+	overflow: hidden;
+	flex: 1;
+	line-height: 1.4;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: var(--wui-tree-node-textsize);
+	color: var(--wui-tree-node-textcolor-out);
+}

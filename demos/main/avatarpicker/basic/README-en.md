@@ -10,7 +10,7 @@ This demo shows the use of WUIAvatarpicker's basic functionality.
 
 ## WUI/JS Stack
 
-- WUIAvatarpicker - 0.2
+- WUIAvatarpicker - 0.3
 
 ## Documentation
 
@@ -54,9 +54,9 @@ nav {
 HTML head:
 
 ```html
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/avatarpicker/wui-avatarpicker-0.2.root.css">
-<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/avatarpicker/wui-avatarpicker-0.2.css">
-<script type="text/javascript" src="/libraries/wui-js/main/avatarpicker/wui-avatarpicker-0.2.js"></script>
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/avatarpicker/wui-avatarpicker-0.3.root.css">
+<link type="text/css" rel="stylesheet" href="/libraries/wui-js/main/avatarpicker/wui-avatarpicker-0.3.css">
+<script type="text/javascript" src="/libraries/wui-js/main/avatarpicker/wui-avatarpicker-0.3.js"></script>
 ```
 
 HTML code:
